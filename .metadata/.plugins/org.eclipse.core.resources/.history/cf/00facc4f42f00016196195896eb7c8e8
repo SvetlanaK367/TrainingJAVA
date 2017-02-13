@@ -1,0 +1,5 @@
+package com.sviatlana.shapeCalculation.exception;
+
+public class ZeroNotAllowed {
+
+}

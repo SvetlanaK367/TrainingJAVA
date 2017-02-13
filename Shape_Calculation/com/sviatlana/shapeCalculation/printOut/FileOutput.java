@@ -1,13 +1,35 @@
 package com.sviatlana.shapeCalculation.printOut;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class FileOutput {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void report(String filePath, String text) {
 
+        BufferedWriter writer = null;
+        File file = new File(filePath);
+        
+        try {
+            writer = new BufferedWriter(new FileWriter(file, true));
+	        if (!file.exists()) file.createNewFile();
+                	
+            writer.write(text);
+            writer.newLine();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+        	if (writer != null) {
+        		try {
+        			writer.close();
+        		} catch (IOException e) {
+        			e.printStackTrace();
+        		}
+        	}
+        }
+        
 	}
 
 }

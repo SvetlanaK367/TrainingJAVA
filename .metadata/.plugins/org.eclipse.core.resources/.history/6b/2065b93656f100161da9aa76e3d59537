@@ -1,0 +1,5 @@
+package com.sviatlana.digitCalculation.main;
+
+public class CustomException {
+
+}

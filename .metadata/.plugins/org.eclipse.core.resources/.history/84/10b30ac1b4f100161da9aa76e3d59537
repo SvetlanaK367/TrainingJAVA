@@ -1,0 +1,64 @@
+package com.sviatlana.shapeCalculation.main;
+
+import java.util.List;
+import java.util.ArrayList;
+import com.sviatlana.shapeCalculation.circle.CircleAreaCalc;
+import com.sviatlana.shapeCalculation.circle.CircumferenceCalc;
+import com.sviatlana.shapeCalculation.exception.CustomException;
+import com.sviatlana.shapeCalculation.inputData.ConsoleInput;
+import com.sviatlana.shapeCalculation.inputData.FileInput;
+import com.sviatlana.shapeCalculation.printOut.ConsoleOutput;
+import com.sviatlana.shapeCalculation.validation.radiusValidation;
+
+public class MainFile {
+
+	public static void main(String[] args) {
+		String filePath = "D:\\Trainings\\JAVA\\Homework\\Shape_Calculation\\inputData\\data.txt";
+		
+		double foundCircumference = 0;
+		double foundCircleArea = 0;
+		double radius = 0;
+		List<String> radiusList = null;
+		String line = null;
+		
+		try {
+			radiusList = FileInput.loadData(filePath);
+			
+			for(int i = 0; i < radiusList.size(); i++)
+			{
+			    line = radiusList.get(i);
+				try {
+			    	radius = Double.parseDouble(line);
+			    } catch (NumberFormatException ex) {
+			    	ConsoleOutput.report("The radius is not on the line " + i + " is incorrect: " + line);
+			    	
+			    }
+			    
+			    if(radius = largest) {
+			            largest = radiusList[i];
+			        }
+
+			        else if(radiusList[i]<smallest)
+			        {
+			            smallest= radiusList[i];
+			        }
+			  }
+			 
+			if(radius != 0.0) {
+				if(radiusValidation.radiusConsoleCheck(radius)) {
+					foundCircumference = CircumferenceCalc.circumference(radius);
+					foundCircleArea = CircleAreaCalc.circleArea(radius);
+					
+					ConsoleOutput.report("Radius = " + radius + ": " +
+							" Circumference = " + foundCircumference + 
+							", Circle Area = " + foundCircleArea);
+				}
+			}
+		} catch (CustomException ex) {
+			ConsoleOutput.report("" + ex);
+		} 
+	}
+		
+	}
+
+}

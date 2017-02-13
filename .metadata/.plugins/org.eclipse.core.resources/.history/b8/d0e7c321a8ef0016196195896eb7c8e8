@@ -1,0 +1,16 @@
+package com.sviatlana.customerException;
+
+public class theException extends Exception{
+
+    public String zeroProhibited(){
+        return "The value should be integer. Please try again.";
+    }
+    
+    public String intAllowedOnly(){
+        return "The value should be integer. Please try again.";
+    }   
+    
+    public String doubleAllowedOnly(){
+        return "The value should be real. Please try again.";
+    }    
+}

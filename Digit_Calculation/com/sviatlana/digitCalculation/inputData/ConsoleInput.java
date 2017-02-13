@@ -2,9 +2,11 @@ package com.sviatlana.digitCalculation.inputData;
 
 import java.util.Scanner;
 
+import com.sviatlana.digitCalculation.main.CustomException;
+
 public class ConsoleInput {
 	
-	public static int getIntData() {
+	public static int getIntData() throws CustomException {
 	    Scanner scanner = new Scanner(System.in);
 	    int x = 0;
 	    System.out.print("Please input an integer number: ");
@@ -13,7 +15,7 @@ public class ConsoleInput {
 	    	x = scanner.nextInt();
 	    }else{
 	    	scanner.next();
-	    	System.out.println("The value should be integer. Please try again.");
+	    	throw new CustomException("The value should be integer. Please try again.");
 	    }
 		return x;
 	}

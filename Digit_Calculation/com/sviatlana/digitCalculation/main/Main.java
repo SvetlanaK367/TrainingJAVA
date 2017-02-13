@@ -12,12 +12,16 @@ public class Main {
 		int x;
 		long foundMultiplication = 0;
 		
+		try {
 		x = ConsoleInput.getIntData();
 
 			if(MultiplicationValidation.multiplDigitsCheck(x, 4)) {
 				foundMultiplication = DigitMultiplication.multiplication(x);
-				ConsoleOutput.Report("Digits multiplication of the number " + x + " equals " + foundMultiplication);
+				ConsoleOutput.report("Digits multiplication of the number " + x + " equals " + foundMultiplication);
 			}
+		} catch (CustomException ex) {
+			ConsoleOutput.report("" + ex);
+		}
 	}
 }
 

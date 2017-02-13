@@ -1,0 +1,46 @@
+package com.sviatlana.shapeCalculation.inputData;
+
+import java.util.Scanner;
+import com.sviatlana.shapeCalculation.exception.CustomException;
+
+public class ConsoleInput {
+
+	public static int getIntData() {
+	    Scanner scanner = new Scanner(System.in);
+	    int x = 0;
+	    System.out.print("Please input an integer number: ");
+	    
+	    try {
+		    if(scanner.hasNextInt()) {
+		    	if(x == 0.0) {
+		    		throw new ZeroNotAllowed();
+					//System.out.println("Zero is not a good value to calculate. Please try again.");
+				}
+		    	x = scanner.nextInt();
+		    }else{
+		    	scanner.next();
+		    	System.out.println("The value should be integer. Please try again.");
+		    }
+			return x;
+	    }catch(ZeroNotAllowed) {
+	    	
+	    }
+	}
+
+	public static double getDoubleData() {
+	    Scanner scanner = new Scanner(System.in);
+		double y = 0.0;
+		
+		System.out.print("Please input a real number: ");
+		if(scanner.hasNextDouble()) {
+			y = scanner.nextDouble();
+			if(y == 0.0) {
+				System.out.println("Zero is not a good value to calculate. Please try again.");
+			}
+		}else{
+			scanner.next();
+			System.out.println("The value should be real. Please try again.");
+		}
+		return y;
+	}
+}

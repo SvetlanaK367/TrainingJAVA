@@ -1,0 +1,13 @@
+package com.sviatlana.customerException;
+
+public class theException extends Exception{
+
+    public String zeroProhibited(){
+        return "The value should be integer. Please try again.";
+    }
+    
+    public String zeroProhibited(){
+        return "The value should be integer. Please try again.";
+    }    
+
+}

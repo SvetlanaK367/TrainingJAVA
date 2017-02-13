@@ -1,0 +1,10 @@
+//package com.sviatlana.shapeCalculation.exception;
+
+public class ZeroNotAllowed extends Exception {
+
+	public ZeroNotAllowed() {}  
+	
+	public ZeroNotAllowed(String er) { 
+		super(er); 
+	}  
+}

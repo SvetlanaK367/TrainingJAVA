@@ -1,0 +1,10 @@
+package com.sviatlana.shapeCalculation.printOut;
+
+public class FileOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
