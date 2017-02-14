@@ -1,0 +1,13 @@
+ArrayProcess. Array is incorrect on the line: 3
+com.sviatlana.arrayWork.util.CustomException: 
+ Incorrect elements of the array: 
+Not positive(1) = -9; 
+Not positive(3) = -7; 
+Not positive(5) = -5; 
+Not int(6) = 4.2; 
+Not positive(7) = -3; 
+Not positive(9) = -1; 
+
+ _____________
+ArrayProcess. RuntimeException on the line: 5, while the numerator was reading. 
+java.lang.NumberFormatException: For input string: ""

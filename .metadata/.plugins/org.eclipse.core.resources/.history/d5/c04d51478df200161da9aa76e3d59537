@@ -1,0 +1,41 @@
+package com.sviatlana.arrayWork.main;
+
+import java.util.List;
+import com.sviatlana.arrayWork.util.CustomException;
+import com.sviatlana.arrayWork.util.IsPositive;
+
+public class SelectElementsByRule {
+	
+	public static List<Integer> multipleOfNumber(List<String> sourceArray, int numerator) throws CustomException {
+		
+		List<Integer> result = null;
+		String strElement = null;
+		int element = 0;
+		boolean isElementsCorrect = true; 
+		String exeption = "Incorrect elements: ";
+		
+		for(int i = 0; i < sourceArray.size(); i++)
+		{
+			strElement = (String) sourceArray.get(i);
+			try {
+				element = Integer.parseInt(strElement);
+				if(IsPositive.positiveValidation(element)) {
+					result[i] = element;
+				} else {
+					isElementsCorrect = false;
+			    	exeption += "Not positive(" + (i + 1) + ") = " + strElement + "; ";
+				}
+		    } catch (NumberFormatException ex) {
+		    	isElementsCorrect = false;
+		    	exeption += "Not int(" + (i + 1) + ") = " + strElement + "; ";
+		    	continue;
+		    }
+		}
+		
+		if(!isElementsCorrect) {
+			throw new CustomException(exeption);
+		}
+			
+		return result;
+	}
+}

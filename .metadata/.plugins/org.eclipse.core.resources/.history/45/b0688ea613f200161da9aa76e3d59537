@@ -1,0 +1,22 @@
+package com.sviatlana.shapeCalculation.model;
+
+import com.sviatlana.shapeCalculation.circle.CircleAreaCalc;
+import com.sviatlana.shapeCalculation.circle.CircumferenceCalc;
+
+public class Circle extends Shape {
+
+	private final double radius;
+
+    public Circle(double r) {
+        this.radius = r;
+    }
+
+    @Override
+    public double area() {
+        return CircleAreaCalc.circleArea(radius);
+    }
+
+    public double perimeter() {
+        return CircumferenceCalc.circumference(radius);
+    }	
+}

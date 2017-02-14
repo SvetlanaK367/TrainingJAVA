@@ -1,0 +1,43 @@
+package com.sviatlana.arrayWork.main;
+
+import java.util.List;
+import com.sviatlana.arrayWork.inputOutput.ArraysInput;
+import com.sviatlana.arrayWork.inputOutput.NumeratorsInput;
+import com.sviatlana.arrayWork.util.CustomException;
+import com.sviatlana.arrayWork.util.SumArrayNumbers;
+import com.sviatlana.arrayWork.inputOutput.FileOutput;
+import com.sviatlana.arrayWork.util.FileNameCreation;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String fileIn = "data\\arrays.txt";
+		String fileNumerators = "data\\numbersList.txt";
+		String fileOut = null;
+		String fileWarning = null;
+		
+		List<List<String>> listOfLists = null;
+		List<String> list = null;
+		List<Integer> listInt = null;
+		List<String> listOfNumerators = null;
+		int numerator = 0;
+		int summaOfArray = 0;
+		int index = 0;
+		
+		try {
+			
+			fileOut = FileNameCreation.nameFromDate("data\\output_", "txt");
+			fileWarning = FileNameCreation.nameFromDate("data\\warning_", "txt");
+			
+			listOfLists = ArraysInput.loadData(fileIn);
+			listOfNumerators = NumeratorsInput.loadNumerator(fileNumerators);
+			summaOfArray = ArrayProcess.process(listOfLists, listOfNumerators);
+			FileOutput.report(fileOut, "");
+			
+		} catch (RuntimeException  ex) {
+			FileOutput.report(fileWarning, "RuntimeException: " + ex);
+		} catch (CustomException ex) {
+			FileOutput.report(fileWarning, "CustomException: " + ex);
+		} 		
+	}
+}

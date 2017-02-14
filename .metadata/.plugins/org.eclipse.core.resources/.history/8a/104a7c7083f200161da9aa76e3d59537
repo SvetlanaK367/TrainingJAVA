@@ -1,0 +1,30 @@
+package com.sviatlana.arrayWork.util;
+
+import java.util.List;
+
+public class float SumArrayNumbers (List<String> array) {
+	
+	String strElement = null;
+	float element = 0f;
+	float result = 0f;
+	boolean isElementsCorrect = true; 
+	String exception = "Incorrect elements: ";
+	
+	for(int i = 0; i < array.size(); i++)
+	{
+		strElement = radiusList.get(i);
+		try {
+			result += Float.parseDouble(strElement);
+	    } catch (NumberFormatException ex) {
+	    	isElementsCorrect = false;
+	    	exception += "" + (i + 1) + " = " + strElement + "; ";
+	    	continue;
+	    }
+	}
+	
+	if(!isElementsCorrect) {
+		result = 0f;
+	}
+		
+	return result;
+}

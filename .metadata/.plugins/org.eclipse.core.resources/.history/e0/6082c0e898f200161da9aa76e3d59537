@@ -1,0 +1,24 @@
+package com.sviatlana.arrayWork.main;
+
+import com.sviatlana.arrayWork.inputOutput.ArraysInput;
+import com.sviatlana.arrayWork.inputOutput.NumeratorsInput;
+import com.sviatlana.arrayWork.util.CustomException;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		String fileIn = "data\\arrays.txt";
+		String fileNumerators = "data\\numbersList.txt";
+		//List<List<String>> matrix = null;
+		
+		try {
+			//matrix = 
+			ArraysInput.loadData(fileIn);
+			NumeratorsInput.loadNumerator(fileNumerators);
+			
+		} catch (CustomException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

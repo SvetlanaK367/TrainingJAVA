@@ -2,7 +2,7 @@ package com.sviatlana.shapeCalculation.validation;
 
 import com.sviatlana.shapeCalculation.exception.CustomException;
 
-public class radiusValidation {
+public class RadiusValidation {
 	public static boolean radiusConsoleCheck(double radius) throws CustomException {
 		
 		boolean result;

@@ -1,0 +1,5 @@
+package com.sviatlana.shapeCalculation.model;
+
+public class Shape {
+
+}

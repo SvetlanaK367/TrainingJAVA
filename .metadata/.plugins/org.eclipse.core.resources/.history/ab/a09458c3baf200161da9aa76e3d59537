@@ -1,0 +1,7 @@
+CustomException: com.sviatlana.arrayWork.util.CustomException: Incorrect elements: 
+Not positive(1) = -9; 
+Not positive(3) = -7; 
+Not positive(5) = -5; 
+Not positive(7) = -3; 
+Not positive(9) = -1; 
+
