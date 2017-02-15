@@ -4,16 +4,24 @@ import java.util.List;
 import com.sviatlana.shapeCalculation.exception.CustomException;
 import com.sviatlana.shapeCalculation.inputData.FileInput;
 import com.sviatlana.shapeCalculation.printOut.FileOutput;
+import com.sviatlana.shapeCalculation.validation.RadiusValidation;
+import com.sviatlana.shapeCalculation.model.Circle;
 
 public class MainFile {
 
 	public static void main(String[] args) {
+	
+		double foundCircumference = 0;
+		double foundCircleArea = 0;
+		double radius = 0;
+		Circle newCircle = new Circle(radius);		
 		
 		String fileIn = "inputData\\data.txt";
 		String fileOut = null;
 		String fileWarning = null;
 		
 		List<String> radiusList = null;
+		String strRadius = null;		
 		
 		try {
 			radiusList = FileInput.loadData(fileIn);

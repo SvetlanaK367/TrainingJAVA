@@ -1,0 +1,19 @@
+package com.sviatlana.shapeCalculation.model;
+
+public class Circle {
+
+	private int radius;
+	
+	public Circle(int r){
+		radius = r;
+	}
+	
+	public int getRadius() {
+		return radius;
+	}
+	
+	public void setRadius(int r) {
+		this.radius = r;
+	}
+	
+}
