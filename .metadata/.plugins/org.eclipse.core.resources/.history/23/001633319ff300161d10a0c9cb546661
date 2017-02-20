@@ -1,0 +1,50 @@
+package com.sviatlana.sc.main;
+
+import java.util.List;
+
+import com.sviatlana.sc.exception.CustomException;
+import com.sviatlana.sc.io.FileInput;
+import com.sviatlana.sc.io.FileOutput;
+import com.sviatlana.sc.model.Circle;
+
+public class MainFile {
+
+	private static List<String> circles;
+
+	public static void main(String[] args) {
+		
+		String fileIn = "inputData\\data.txt";
+		String fileOut = null;
+		String fileWarning = null;
+		double radius = 0;
+		//Circle newCircle = new Circle(radius);
+		List<String> radiusList = null;
+		List<Circle> circles = (List<Circle>) new Circle(radius);
+		
+		try {
+			fileOut = FileNameCreation.nameFromDate("inputData\\output_", "txt");
+			fileWarning = FileNameCreation.nameFromDate("inputData\\warning_", "txt");
+			
+			radiusList = FileInput.loadData(fileIn);
+
+		    for (String r: radiusList) {
+		    	radius = (Integer)parceInt(r);
+		    	Circle newCircle = new Circle(radius);
+		        circles.add(newCircle);
+		    }
+			
+			CircleProcess.process(radiusList, fileOut, fileWarning);
+			
+		} catch (RuntimeException  ex) {
+			FileOutput.report(fileWarning, "RuntimeException: " + ex);
+		} catch (CustomException ex) {
+			FileOutput.report(fileWarning, "CustomException: " + ex);
+		} 
+	}
+
+	private static Integer parceInt(String r) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

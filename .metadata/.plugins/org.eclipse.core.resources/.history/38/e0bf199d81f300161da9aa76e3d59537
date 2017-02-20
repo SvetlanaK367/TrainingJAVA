@@ -1,0 +1,5 @@
+package com.sviatlana.testUnit.validation;
+
+public class Validator {
+
+}

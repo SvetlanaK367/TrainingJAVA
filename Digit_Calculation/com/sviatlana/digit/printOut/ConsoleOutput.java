@@ -1,0 +1,9 @@
+package com.sviatlana.digit.printOut;
+
+public class ConsoleOutput {
+	
+	public static void report(String text) {
+		System.out.println(text);
+
+	}
+}

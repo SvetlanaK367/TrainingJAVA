@@ -1,0 +1,5 @@
+package com.sviatlana.sc.io;
+
+public class FileOutput {
+
+}

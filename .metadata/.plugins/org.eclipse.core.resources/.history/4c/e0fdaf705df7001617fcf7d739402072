@@ -1,0 +1,17 @@
+package test.com.sviatlana.sc.validation;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import com.sviatlana.sc.validation.IsNumeric;
+
+public class IsNumericTest {
+
+	@Test
+	public void isNumberTest () {
+		Validator v = new Validator();
+		boolean condition = v.IsNumber("123");
+		assertTrue(condition);
+	}
+	
+}

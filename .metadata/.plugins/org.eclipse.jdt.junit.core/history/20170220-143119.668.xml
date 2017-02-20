@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IsIntegerTest" project="Shape_Calculation" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="test.com.sviatlana.sc.validation.IsIntegerTest" time="0.001">
+    <testcase name="IsIntegerWithMinusSignTestTrue" classname="test.com.sviatlana.sc.validation.IsIntegerTest" time="0.0"/>
+    <testcase name="IsIntegerWithPlusSignTestTrue" classname="test.com.sviatlana.sc.validation.IsIntegerTest" time="0.0"/>
+    <testcase name="IsIntegerWithDotTestFalse" classname="test.com.sviatlana.sc.validation.IsIntegerTest" time="0.0"/>
+    <testcase name="IsIntegerTestTrue" classname="test.com.sviatlana.sc.validation.IsIntegerTest" time="0.0"/>
+    <testcase name="IsIntegerTestFalse" classname="test.com.sviatlana.sc.validation.IsIntegerTest" time="0.0"/>
+  </testsuite>
+</testrun>

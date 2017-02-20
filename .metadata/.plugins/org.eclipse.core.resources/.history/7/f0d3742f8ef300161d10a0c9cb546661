@@ -1,0 +1,35 @@
+package com.sviatlana.sc.main;
+
+import java.util.List;
+
+import com.sviatlana.sc.exception.CustomException;
+import com.sviatlana.sc.inputData.FileInput;
+import com.sviatlana.sc.model.Circle;
+import com.sviatlana.shapeCalculation.printOut.FileOutput;
+
+public class MainFile {
+
+	public static void main(String[] args) {
+		
+		String fileIn = "inputData\\data.txt";
+		String fileOut = null;
+		String fileWarning = null;
+		double radius = 0;
+		Circle newCircle = new Circle(radius);
+		
+		List<String> radiusList = null;
+		
+		try {
+			radiusList = FileInput.loadData(fileIn);
+			fileOut = FileNameCreation.nameFromDate("inputData\\output_", "txt");
+			fileWarning = FileNameCreation.nameFromDate("inputData\\warning_", "txt");
+			CircleProcess.process(radiusList, fileOut, fileWarning);
+			
+		} catch (RuntimeException  ex) {
+			FileOutput.report(fileWarning, "RuntimeException: " + ex);
+		} catch (CustomException ex) {
+			FileOutput.report(fileWarning, "CustomException: " + ex);
+		} 
+	}
+
+}

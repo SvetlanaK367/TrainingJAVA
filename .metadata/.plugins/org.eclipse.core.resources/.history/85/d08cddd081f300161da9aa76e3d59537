@@ -1,0 +1,8 @@
+package com.sviatlana.testUnit.validation;
+
+public class Validator {
+	public boolean IsNumber(String num) {
+		Integer.parseInt(num);
+		return false;
+	}
+}

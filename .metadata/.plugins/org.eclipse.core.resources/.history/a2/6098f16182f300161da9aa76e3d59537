@@ -1,0 +1,21 @@
+package test.com.sviatlana.testUnit.validation;
+
+import com.sviatlana.testUnit.validation.Validator;
+import static org.junit.Assert.*
+import org.junit.Test;
+
+public class ValidatorTest {
+	@Test
+	public void isNumberTest () {
+		Validator v = new Validator();
+		boolean condition = v.IsNumber("123");
+		assertTrue(condition);
+	}
+
+	public void isNumberTestFalse () {
+		Validator v = new Validator();
+		boolean condition = v.IsNumber("0123");
+		assertFalse(condition);
+	}
+	
+}
