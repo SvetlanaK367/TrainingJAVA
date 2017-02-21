@@ -15,6 +15,7 @@ public class NumberOfDigitsValidation {
 	}
 
 	public static boolean digitsValidation(long x, int dg) {
+		// System.out.println("x = " + x + ", length =" + String.valueOf(x).length() + ", dg =" + dg);
 		return (String.valueOf(x).length() == dg);
 	}
 

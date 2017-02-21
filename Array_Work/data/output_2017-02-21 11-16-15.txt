@@ -1,0 +1,4 @@
+Summary of the array 1 = 30, numerator = 3
+Summary of the array 2 = 495, numerator = 11
+Summary of the array 4 = 15, numerator = 5
+Summary of the array 6 = 1200, numerator = 100

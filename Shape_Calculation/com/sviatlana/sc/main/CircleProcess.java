@@ -16,7 +16,7 @@ public class CircleProcess {
 	
 	static Logger logger = LogManager.getLogger("Main");	
 	
-	public static void process(List<String> radiusList, String fileOut, String fileWarning) {
+	public static void process(List<String> radiusList, String fileOut) {
 		
 		String strRadius = null;
 		double radius = 0;

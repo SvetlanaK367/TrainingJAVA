@@ -1,0 +1,45 @@
+package test.com.sviatlana.digit.validation;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import com.sviatlana.digit.exception.CustomException;
+
+import com.sviatlana.digit.main.CustomException;
+import com.sviatlana.digit.validation.MultiplicationValidation;
+
+@RunWith(Parameterized.class)
+public class MultiplicationValidationTest {
+
+	private int inputValue;
+    private boolean expectedValue;
+
+    public MultiplicationValidationTest(int input, boolean expected) {
+    	inputValue = input;
+    	expectedValue= expected;
+    }
+
+    @Parameterized.Parameters
+	public static Collection numberValidationTest() {
+	    return Arrays.asList(
+	    	new Object[][] {
+	    		{ 2222, true },
+	    		{ 632, false },
+	    		{ -1910, true },
+	    		{ 0022, false },
+	    		{ 0000, true }
+	    	}
+	    );
+    }
+	     
+	@Test
+	public void numberValidationTest1() {
+		try {
+			assertEquals(expectedValue, MultiplicationValidation.multiplDigitsCheck(inputValue, 4));
+		} catch (CustomException e) {
+			fail(e);
+		}
+	}	     
+}

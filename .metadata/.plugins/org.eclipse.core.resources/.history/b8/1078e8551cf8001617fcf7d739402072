@@ -1,0 +1,36 @@
+package test.com.sviatlana.digit.validation;
+
+import java.util.Arrays;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import com.sviatlana.digit.main.CustomException;
+
+@RunWith(Parameterized.class)
+public class MultiplicationValidationTestException {
+
+	private int inputValue;
+	private boolean expectedValue;
+	private Class<? extends Exception> expectedException;
+	private String expectedExceptionMsg;
+	
+	public MultiplicationValidationTestException (int input, boolean expected, Class<? extends Exception> expectedExc, String expectedMsg) {
+		inputValue = input;
+		expectedValue = expected;
+		expectedException = expectedExc;
+		expectedExceptionMsg = expectedMsg;
+	}
+	
+	@Parameterized.Parameters
+	public static Collection<Object[]> inputData() {
+		return Arrays.asList (
+			new Object[][] {
+					{2222, true, null, null},
+					{1111, true, null, null}
+			}
+		);
+	}
+	
+	@Test
+	
+}

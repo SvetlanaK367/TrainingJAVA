@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MultiplicationValidationTestException" project="Digit_Calculation" tests="7" started="7" failures="1" errors="1" ignored="0">
+  <testsuite name="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.011">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="numberValidationTest[0]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="numberValidationTest[1]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="numberValidationTest[2]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.002">
+      <testcase name="numberValidationTest[3]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.002">
+        <error>java.lang.IllegalArgumentException: argument type mismatch
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.createTest(Parameterized.java:86)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:251)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:248)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="[4]" time="0.007">
+      <testcase name="numberValidationTest[4]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.007">
+        <failure>java.lang.AssertionError: 
+Expected: (exception with message a string containing "The number of digits should be 4. Please run with a correct value." and an instance of com.sviatlana.digit.main.CustomException)
+     got: &lt;com.sviatlana.digit.main.CustomException: The number of digits should be 3. Please run with a correct value.&gt;
+
+	at org.junit.Assert.assertThat(Assert.java:778)
+	at org.junit.Assert.assertThat(Assert.java:736)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:114)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</failure>
+      </testcase>
+    </testsuite>
+    <testsuite name="[5]" time="0.0">
+      <testcase name="numberValidationTest[5]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.0"/>
+    </testsuite>
+    <testsuite name="[6]" time="0.001">
+      <testcase name="numberValidationTest[6]" classname="test.com.sviatlana.digit.validation.MultiplicationValidationTestException" time="0.001"/>
+    </testsuite>
+  </testsuite>
+</testrun>

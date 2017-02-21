@@ -1,0 +1,7 @@
+2017-02-20 20:21:03 [main] ERROR Main - com.sviatlana.digit.main.CustomException: The number of digits should be 4. Please run with a correct value.
+2017-02-20 20:23:11 [main] ERROR Main - com.sviatlana.digit.main.CustomException: The number of digits should be 4. Please run with a correct value.
+2017-02-20 20:23:19 [main] ERROR Main - Digits multiplication of the number 1234 equals 24
+2017-02-20 20:25:45 [main] ERROR Main - com.sviatlana.digit.main.CustomException: The number of digits should be 4. Please run with a correct value.
+2017-02-20 20:25:56 [main] ERROR Main - com.sviatlana.digit.main.CustomException: The number of digits should be 4. Please run with a correct value.
+2017-02-20 20:29:26 [main] ERROR Main - com.sviatlana.digit.main.CustomException: Zero is not sutable. Please run with a correct value.
+2017-02-20 20:29:53 [main] ERROR Main - com.sviatlana.digit.main.CustomException: The number of digits should be 4. Please run with a correct value.

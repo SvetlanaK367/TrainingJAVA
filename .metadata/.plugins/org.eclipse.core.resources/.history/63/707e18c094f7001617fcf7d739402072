@@ -1,0 +1,22 @@
+package test.com.sviatlana.digit.validation;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import com.sviatlana.digit.main.CustomException;
+import com.sviatlana.digit.validation.MultiplicationValidation;
+
+public class MultiplicationValidationTest {
+
+	@Test
+	public void numberValidationTestTrue() {
+		boolean condition;
+		
+		try {
+			condition = MultiplicationValidation.multiplDigitsCheck(0, 4);
+		} catch (CustomException e) {
+			condition = false;
+		}
+		assertTrue(condition);
+	}
+}

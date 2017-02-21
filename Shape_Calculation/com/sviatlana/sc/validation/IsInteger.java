@@ -9,6 +9,7 @@ public class IsInteger {
 			Integer.parseInt(source);
 			result = true;
 		}catch(NumberFormatException e) {
+			result = false;
 		}
 		
 	    return result;

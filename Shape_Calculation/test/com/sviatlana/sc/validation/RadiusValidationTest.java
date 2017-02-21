@@ -31,26 +31,14 @@ public class RadiusValidationTest {
 	}
 
 	@Test(expected = CustomException.class)
-	public void RadiusValidationWithMinusSignTestFalse () {
-		boolean condition;
-		try {
-			condition = RadiusValidation.radiusFileCheck(-123.56);
-			condition = true;
-		} catch (CustomException e) {
-			condition = false;
-		}
-		assertFalse(condition);
+	public void RadiusValidationWithMinusSignTestFalse () throws CustomException {
+		RadiusValidation.radiusFileCheck(-123.56);
+		fail("An exception was not happened.");
 	}
 
 	@Test(expected = CustomException.class)
-	public void RadiusValidationZeroTestFalse () {
-		boolean condition;
-		try {
-			condition = RadiusValidation.radiusFileCheck(0.0);
-			condition = true;
-		} catch (CustomException e) {
-			condition = false;
-		}
-		assertFalse(condition);
+	public void RadiusValidationZeroTestFalse () throws CustomException {
+		RadiusValidation.radiusFileCheck(0.0);
+		fail("An exception was not happened.");
 	}
 }

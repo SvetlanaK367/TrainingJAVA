@@ -1,0 +1,2 @@
+2017-02-21 11:50:44 [main] ERROR ConsoleOutput - com.sviatlana.digit.main.CustomException: Zero is not sutable. Please run with a correct value.
+2017-02-21 11:52:17 [main] ERROR ConsoleOutput - com.sviatlana.digit.main.CustomException: The number of digits should be 4. Please run with a correct value.

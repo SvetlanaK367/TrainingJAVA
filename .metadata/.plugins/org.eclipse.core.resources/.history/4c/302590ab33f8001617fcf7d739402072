@@ -1,0 +1,57 @@
+package test.com.sviatlana.digit.validation;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.Arrays;
+import java.util.Collection;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import com.sviatlana.digit.main.CustomException;
+
+@RunWith(Parameterized.class)
+public class MultiplicationValidationTestException {
+
+	private int inputValue;
+	private boolean expectedValue;
+	private Class<? extends Exception> expectedException;
+	private String expectedExceptionMsg;
+	private int inputDigit;
+
+	@Rule 
+	ExpectedException thrown = ExpectedException.none();
+	
+	public MultiplicationValidationTestException (int input, int dg, boolean expected, Class<? extends Exception> expectedExc, String expectedMsg) {
+		inputValue = input;
+		inputDigit = dg;
+		expectedValue = expected;
+		expectedException = expectedExc;
+		expectedExceptionMsg = expectedMsg;
+	}
+	
+	@Parameterized.Parameters
+	public static Collection<Object[]> inputData() {
+		
+		return Arrays.asList (
+			new Object[][] {
+					{22222, 5, true, null, null},
+					{1111, 4, true, null, null},
+					{0, 1, null, CustomException.class, "Zero is not sutable. Please run with a correct value."},
+					{12345, 4, null, CustomException.class, "The number of digits should be " + 4 + ". Please run with a correct value."}
+			}
+		);
+	}
+
+	
+	@Test
+	public void numberValidationTest() throws CustomException {
+		if (expectedException != null) {
+			thrown.expect(expectedException.class);
+			thrown.expectMessage(expectedExceptionMsg);
+		}
+		
+		assertEquals();
+	}
+}
