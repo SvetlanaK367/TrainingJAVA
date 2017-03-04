@@ -1,0 +1,44 @@
+package com.sviatlana.library.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.action.FindPublication;
+import com.sviatlana.library.io.InputData;
+import com.sviatlana.library.io.OutputResult;
+import com.sviatlana.library.main.FileNameCreation;
+import com.sviatlana.library.model.Publication;
+import com.sviatlana.library.validation.CustomException;
+
+public class Main {
+	
+	static Logger logger = LogManager.getLogger("Main");
+	
+	static void main (String[] arg) {
+		String fileIn = "data\\publications.txt"; 
+		String fileOut = "data\\output_";
+		ArrayList<Publication> arrayPublication = null;
+		List<Publication> itemPublication = null;
+		ArrayList<Publication> itemsSet = null;
+		
+		try {
+			arrayPublication = InputData.inputItem(fileIn);
+			fileOut = FileNameCreation.nameFromDate(fileOut, "txt");
+			itemsSet = FindPublication.findItem(arrayPublication, itemPublication);
+			OutputResult.printFile(itemsSet, fileOut);
+			
+			itemsSet = SortPublication.sortItems(arrayPublication, method);
+			OutputResult.printFile(itemsSet, fileOut);			
+			
+		} catch (CustomException ex) {
+			logger.log(Level.ERROR, "CustomException: " + ex);
+		} catch (RuntimeException ex) {
+			logger.log(Level.ERROR, "RuntimeException: " + ex);
+		}
+	}
+
+}

@@ -1,0 +1,74 @@
+package com.sviatlana.library.validation;
+
+import java.util.ArrayList;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.model.Publication;
+
+public class PublicationCheck {
+	
+	static Logger logger = LogManager.getLogger("PublicationValidate");
+
+	public static ArrayList<Publication> itemsCheck(ArrayList<Publication> inputArray) {
+		
+		ArrayList<Publication> validPublications = new ArrayList<Publication>();
+		Publication thePublication = null;
+		String itemType = null;
+		String itemGenre = null;
+		StringBuilder msg = new StringBuilder("");
+		
+		for(int i = 0; i < inputArray.size(); i++) {
+			thePublication = inputArray.get(i);
+			
+			if (thePublication == null) {
+				logger.log(Level.WARN, "The publication " + (i + 1) + " is empty");
+				continue;
+			}
+			msg.setLength(0);
+
+			itemType = thePublication.getPublicationType(thePublication);
+			if (!thePublication.existPublicationType(itemType)) {
+				msg.append("the type = " + itemType + ";");
+			}
+			
+			itemGenre = thePublication.getPublicationGenre(thePublication);
+			if (!thePublication.existPublicationGenre(itemGenre)) {
+				msg.append("the genre = " + itemGenre + ";");
+			}
+
+			if (thePublication.getPublicationName(thePublication).isEmpty()) {
+				msg.append("the name is empty;");
+			}
+
+			if (itemType.equalsIgnoreCase("Book") 
+					&& thePublication.getPublicationAuthor(thePublication).length == 0){
+				msg.append("the authors are not listed;");
+			}
+
+			if (thePublication.getPublisher(thePublication).isEmpty()){
+				msg.append("the publisher is not pointed;");
+			}
+
+			if (thePublication.getPublicationYear(thePublication) <= 0){
+				msg.append("the year is not set properly;");
+			}
+
+			if (thePublication.getPublicationPages(thePublication) <= 0){
+				msg.append("the pages is not correct;");
+			}
+			
+			if(msg.length() == 0) {
+				validPublications.add(thePublication);
+			} else {
+				logger.log(Level.WARN, "The publication " + (i + 1) + " is incorrect. Please check: " + msg.toString());
+			}
+			
+		}
+		
+		return validPublications;
+		
+	}
+	
+}

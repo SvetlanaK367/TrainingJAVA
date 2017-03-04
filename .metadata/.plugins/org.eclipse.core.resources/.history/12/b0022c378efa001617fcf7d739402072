@@ -1,0 +1,23 @@
+package com.sviatlana.library.validation;
+
+import java.util.ArrayList;
+
+import com.sviatlana.library.model.Publication;
+
+public class PublicationValidate {
+
+	public static ArrayList<Publication> itemsCheck(ArrayList<Publication> inputArray) {
+		
+		ArrayList<Publication> validPublications = null;
+		Publication thePublication = null;
+		
+		for(int i = 0; i < inputArray.size(); i++) {
+			thePublication = inputArray.get(i);
+			
+		}
+		
+		return validPublications;
+		
+	}
+	
+}

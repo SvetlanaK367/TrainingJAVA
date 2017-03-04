@@ -1,0 +1,25 @@
+package com.sviatlana.library.main;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.main.FileNameCreation;
+import com.sviatlana.library.validation.CustomException;
+
+public class Main {
+	
+	static Logger logger = LogManager.getLogger("Main");
+	
+	static void main (String[] arg) {
+		String fileIn = "data\\publications.txt"; 
+		String fileOut = "data\\output_";
+		
+		try {
+			fileOut = FileNameCreation.nameFromDate(fileOut, "txt");
+		} catch (CustomException ex) {
+			logger.log(Level.ERROR, ex);
+		}
+	}
+
+}

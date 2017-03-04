@@ -1,0 +1,36 @@
+package com.sviatlana.library.model;
+
+public class PublicationModel {
+
+    enum PublicationTypes {
+        Book, Magazine, Album, Newspaper
+    }
+
+    enum PublicationGenres {
+        Historical, Fiction, Detective, FairyTale, Tutorial, Encyclopedia, Scientific, Technical,
+        ForKids, Art, PopularScientific, Literary, Newsmagazines, PhotoAlbum,
+        Monthly, Weekly, Daily, ThriceAWeek, TwiceAWeek
+    }
+
+    private final String publicationType;
+    
+    PublicationModel();
+
+    PublicationModel(String pType) {
+
+        PublicationTypes.valueOf(pType);
+
+        this.publicationType = pType;
+    }
+
+    public String getPublicationModel() { return this.publicationType; }
+
+    public boolean existPublicationType(String pType) {
+        try {
+            PublicationTypes.valueOf(pType);
+            return true;
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+}

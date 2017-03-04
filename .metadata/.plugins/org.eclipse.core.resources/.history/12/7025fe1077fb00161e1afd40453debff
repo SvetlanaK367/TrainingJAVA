@@ -1,0 +1,57 @@
+2017-02-25 19:06:18 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:06:18 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:06:18 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:06:18 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:06:18 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:06:37 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:06:37 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:06:37 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:06:37 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:06:37 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:07:25 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:07:25 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:07:25 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:07:25 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:07:25 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:08:45 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:08:45 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:08:45 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:08:45 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:08:45 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:15:51 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:15:51 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:15:51 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:15:51 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:15:51 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:16:17 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:16:17 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:16:17 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:16:17 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:16:17 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:16:56 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:16:56 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:16:56 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:16:56 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:16:56 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 19:18:54 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:18:54 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:18:54 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:18:54 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:18:54 [main] ERROR OutputResult - CustomException: com.sviatlana.library.validation.CustomException: The publication set is empty.
+2017-02-25 19:19:26 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:19:26 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:19:26 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:19:26 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:19:26 [main] ERROR OutputResult - CustomException: com.sviatlana.library.validation.CustomException: The publication set is empty.
+2017-02-25 19:19:43 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:19:43 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:19:43 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:19:43 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:23:00 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:23:00 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:23:00 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:23:00 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 19:24:59 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 19:24:59 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 19:24:59 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 19:24:59 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;

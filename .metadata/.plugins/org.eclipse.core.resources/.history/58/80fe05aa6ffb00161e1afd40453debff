@@ -1,0 +1,61 @@
+package com.sviatlana.library.io;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.sviatlana.library.model.Publication;
+
+public class OutputResult {
+
+	static Logger logger = LogManager.getLogger("OutputResult");
+	
+	public static void printFile(ArrayList<Publication> printPublications, String filePath) {
+		
+		BufferedWriter writer = null;
+		File file = new File(filePath);
+		int index = 0;
+		String[] authors = null;
+		//Publication p = new Publication();
+		
+		try {
+			writer = new BufferedWriter(new FileWriter(file, true));
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+			
+			for(Publication p : printPublications) {
+				authors = p.getPublicationAuthor(p);
+				
+				writer.write(p.getPublicationType(p) 
+						+ ", genre = " + p.getPublicationGenre(p) 
+						+ ", name = " + p.getPublicationName(p)
+						+ ", was published in " + p.getPublicationYear(p).toString() + " year"
+						+ " by " + p.getPublisher(p) + ". /n"
+						+ "    Authors: /n"
+						+ ""
+						);
+	            writer.newLine();				
+				index++;
+			}
+            
+		} catch (IOException ex) {
+			logger.log(Level.ERROR, "IOException: " + ex);
+		} finally {
+			if (writer != null) {
+				try {
+					writer.close();
+				} catch (IOException ex) {
+					logger.log(Level.ERROR, "IOException: " + ex);
+				}
+			}
+		}
+		
+	}
+}

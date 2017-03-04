@@ -1,0 +1,30 @@
+package com.sviatlana.library.model;
+
+import com.sviatlana.library.model.PublicationModel;
+
+public class PublicationInit {
+
+    public static Publication initEntity(ArrayList<String> items) {
+
+        PublicationModel.PublicationTypes.valueOf(items[0]);
+
+        switch items[0] = 'Book'
+        if (parts.length == AirplaneInit.AIRLINER_PARTS_LENGTH) {
+            return new Airliner(parts[0],
+                    Integer.parseInt(parts[1]),
+                    Float.parseFloat(parts[2]),
+                    Float.parseFloat(parts[3]),
+                    AirplaneModel.valueOf(parts[4]),
+                    Boolean.parseBoolean(parts[5]),
+                    Float.parseFloat(parts[6]),
+                    Integer.parseInt(parts[7]));
+        } else {
+            return new CargoAirplane(parts[0],
+                    Integer.parseInt(parts[1]),
+                    Float.parseFloat(parts[2]),
+                    Float.parseFloat(parts[3]),
+                    AirplaneModel.valueOf(parts[4]),
+                    Integer.parseInt(parts[5]));
+        }
+    }
+}

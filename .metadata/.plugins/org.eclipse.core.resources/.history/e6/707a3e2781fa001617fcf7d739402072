@@ -1,0 +1,11 @@
+package com.sviatlana.library.io;
+
+import java.util.ArrayList;
+import com.sviatlana.library.model.Publication;
+
+public class OutputResult {
+
+	public static void printFile(ArrayList<Publication> findItems) {
+		
+	}
+}

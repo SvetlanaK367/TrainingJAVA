@@ -1,0 +1,68 @@
+package com.sviatlana.library.io;
+
+import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.model.Publication;
+import com.sviatlana.library.validation.CustomException;
+
+public class InputData {
+	
+	static Logger logger = LogManager.getLogger("InputData"); 
+	
+	public static ArrayList<Publication> inputItem(String filePath) throws CustomException {
+		ArrayList<Publication> results = new ArrayList<Publication>();
+		File file = new File(filePath);
+		String line = null;
+		String[] items = null;
+		BufferedReader reader = null;
+		int j = 0;
+		
+		if (!file.exists()) {
+			throw new CustomException("File does not exist. Please check the path: " + filePath);
+		}
+
+		try {
+			reader = new BufferedReader(new FileReader(file));
+			
+			while ((line = reader.readLine()) != null) {
+				j++;
+				items = line.split("\\|");
+
+			    try {
+			    	Publication p = new Publication(items);
+			    	if(Arrays.asList(results).containsAll(Arrays.asList(p))) {
+			    		logger.log(Level.WARN, "The record " + j + " is duplicated. ");
+			    		continue; 
+			    	}
+			    	results.add(p);
+			    } catch (NumberFormatException ex) {
+			    	logger.log(Level.ERROR, "The record " + j + " is incorrect: " + ex);
+			    	continue; 
+			    }
+			}
+				
+		} catch(IOException ex) {
+			logger.log(Level.ERROR, ex);
+		} finally {
+			try {
+				if(reader != null) {
+					reader.close();
+				}
+			} catch (IOException ex) {
+				logger.log(Level.ERROR, ex);
+			}
+		}
+		
+		return results;
+	
+	}
+}

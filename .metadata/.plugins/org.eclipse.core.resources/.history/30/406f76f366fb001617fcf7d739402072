@@ -1,0 +1,15 @@
+2017-02-25 11:33:57 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:34:56 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:35:55 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:36:05 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:37:38 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:44:46 [main] ERROR Main - RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1
+2017-02-25 11:46:26 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:47:35 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:48:29 [main] ERROR Main - RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1
+2017-02-25 11:48:45 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:49:36 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"
+2017-02-25 11:49:53 [main] ERROR Main - RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1
+2017-02-25 11:53:46 [main] ERROR Main - RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1
+2017-02-25 11:54:57 [main] ERROR Main - RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1
+2017-02-25 11:58:46 [main] ERROR Main - RuntimeException: java.lang.NumberFormatException: For input string: "|"

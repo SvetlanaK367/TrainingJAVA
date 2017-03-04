@@ -1,0 +1,63 @@
+package com.sviatlana.library.validation;
+
+import java.util.ArrayList;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.model.Publication;
+
+public class PublicationCheck {
+	
+	static Logger logger = LogManager.getLogger("PublicationValidate");
+
+	public static ArrayList<Publication> itemsCheck(ArrayList<Publication> inputArray) {
+		
+		ArrayList<Publication> validPublications = new ArrayList<Publication>();
+		Publication thePublication = null;
+		String itemType = null;
+		String itemGenre = null;
+		StringBuilder msg = new StringBuilder("");
+		
+		for(int i = 0; i < inputArray.size(); i++) {
+			thePublication = inputArray.get(i);
+			
+			if (thePublication == null) {
+				logger.log(Level.WARN, "The publication " + (i + 1) + " is empty");
+				continue;
+			}
+			msg.setLength(0);
+
+			itemType = thePublication.getPublicationType(thePublication);
+			if (!thePublication.existPublicationType(itemType)) {
+				msg.append("    The type: " + itemType + "/n");
+			}
+			
+			itemGenre = thePublication.getPublicationGenre(thePublication);
+			if (!thePublication.existPublicationGenre(itemGenre)) {
+				msg.append("    The genre: " + itemGenre + "/n");
+			}
+
+			if (thePublication.getPublicationName(thePublication).isEmpty()) {
+				msg.append("    The name is empty /n");
+			}
+
+			if (itemType.equalsIgnoreCase("Book") 
+					&& thePublication.getPublicationAuthor(thePublication).length == 0){
+				msg.append("    The authors are not listed /n");
+			}
+					
+			if(msg.length() == 0) {
+				validPublications.add(thePublication);
+			} else {
+				logger.log(Level.WARN, "The publication " + (i + 1) + " is incorrect. Please check. /n" + msg.toString());
+			}
+			
+		}
+		
+		return validPublications;
+		
+	}
+	
+}

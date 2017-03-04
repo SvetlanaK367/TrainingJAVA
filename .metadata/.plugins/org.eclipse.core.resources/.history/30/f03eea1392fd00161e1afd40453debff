@@ -1,0 +1,21 @@
+package com.sviatlana.library.model;
+
+public class EntityBook extends Publication{
+
+    private String publicationGenre;
+
+    public EntityBook(PublicationModel pType, String pName, String publisher, int pYear, int pages, String pGenre) {
+        super(humanCapacity, carryingCapacity, fuelConsumption, name, model);
+
+        this.foodOnBoardOption = foodOnBoardOption;
+        this.freeInternetLimit = freeInternetLimit;
+        this.extraSeatsCount = extraSeatsCount;
+    }
+
+    public boolean getFoodOnBoardOptione() {
+        return this.foodOnBoardOption;
+    }
+
+
+
+}

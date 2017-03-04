@@ -1,0 +1,3 @@
+2017-02-25 17:31:54 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 17:31:54 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 17:31:54 [main] ERROR Main - RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1

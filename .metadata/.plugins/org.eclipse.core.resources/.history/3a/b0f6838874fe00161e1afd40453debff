@@ -1,0 +1,36 @@
+package com.sviatlana.library.action;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import com.sviatlana.library.model.Publication;
+
+public class FindPublication {
+
+	public static ArrayList<Publication> findItem(ArrayList<Publication> arrayP, String[] item) {
+		
+		List<Publication> foundList = new ArrayList<Publication>();
+		ArrayList<String> foundArrays = new ArrayList<Publication>();
+
+		final String pType = item[0];
+		final String pName = item[1];
+		final String pPublisher = item[2];
+		final int pYear = Integer.parseInt(item[3]);
+		final int pPages = Integer.parseInt(item[4]);
+
+		foundList = arrayP.stream()
+				.filter(p -> pType == null || p.getPublicationType().equals(pType))
+				.filter(p -> pName == null || p.getPublicationName().equals(pName))
+				.filter(p -> pPublisher == null || p.getPublisher().equals(pPublisher))
+				.filter(p -> pYear == 0 || p.getPublicationYear().equals(pYear))
+				.filter(p -> pPages == 0 || p.getPublicationPages().equals(pPages))
+				//.findFirst()
+				//.get()
+				.collect(Collectors.toList());
+
+
+		return listOfStrings = new ArrayList<>(list.size());;
+		
+	}
+}

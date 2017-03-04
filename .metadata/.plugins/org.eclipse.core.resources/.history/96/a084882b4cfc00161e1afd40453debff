@@ -1,0 +1,38 @@
+package com.sviatlana.library.action;
+
+import java.text.Collator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Locale;
+
+import com.sviatlana.library.model.Publication;
+
+public class SortPublication {
+
+	public static ArrayList<Publication> sortItems(ArrayList<Publication> pArray, String method) {
+		
+		ArrayList<Publication> sortedArray = null;
+		
+		return sortedArray;
+		
+	}
+	
+	public String authorsSort (String[] authors) { 
+		Collator col = Collator.getInstance(new Locale("en", "EN"));
+
+		Arrays.sort(authors, col);
+		String sorted = "";
+		for (int i = 0; i < authors.length; i++)
+		{
+		  sorted += authors[i] + ";";
+		}
+		
+		return sorted;
+	}
+
+	public String[] authorsSort2 (String[] authors) { 
+		Arrays.sort(authors, String.CASE_INSENSITIVE_ORDER);
+		return authors;
+	}
+
+}

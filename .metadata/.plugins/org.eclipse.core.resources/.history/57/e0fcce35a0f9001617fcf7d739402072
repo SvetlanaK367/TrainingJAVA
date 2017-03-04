@@ -1,0 +1,7 @@
+package com.sviatlana.library.model;
+
+public abstract interface IPublication {
+	public String publicationName;
+	
+
+}

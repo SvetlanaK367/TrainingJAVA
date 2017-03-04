@@ -1,0 +1,8 @@
+package com.sviatlana.library.main;
+
+public class FileNameCreation {
+
+	protected String nameFromDate(String fileName, String fileExtension) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.sviatlana.library.validation;
+
+public class ItemsValidation {
+
+}

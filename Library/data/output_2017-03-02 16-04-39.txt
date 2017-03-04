@@ -1,0 +1,64 @@
+ Entered Publications
+=======================
+Publication [type = ALBUM, genre = ART, publicationName = Albom Name 1, publisher = Publisher5, publicationYear = 2016, number of pages = 18]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2011, number of pages = 128, genre = HISTORICAL
+             Authors:[Surkov K., Petrov P.P]]
+Publication [type = MAGAZINE, genre = SCIENTIFIC, publicationName = Scientific MAGAZINEName, publisher = Publisher3, publicationYear = 2017, number of pages = 35]
+Publication [type = MAGAZINE, genre = FORKIDS, publicationName = Kids MAGAZINEName, publisher = Publisher3, publicationYear = 2017, number of pages = 11]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 9999, number of pages = 4]
+Publication [type = NEWSPAPER, genre = MONTHLY, publicationName = NEWSPAPER Name 1, publisher = Publisher1, publicationYear = 2017, number of pages = 8]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 2011, number of pages = 12]
+Publication [type = MAGAZINE, genre = ART, publicationName = Art MAGAZINEName, publisher = Publisher1, publicationYear = 2012, number of pages = 21]
+Publication [type = NEWSPAPER, genre = DAILY, publicationName = NEWSPAPER Name 3, publisher = Publisher3, publicationYear = 2017, number of pages = 6]
+Publication [type = ALBUM, genre = THRICEAWEEK, publicationName = Albom Name 1, publisher = Publisher5, publicationYear = 2016, number of pages = 18]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2010, number of pages = 212, genre = HISTORICAL
+             Authors:[Ivanov I.I., Kyte T.]]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 2017, number of pages = 4]
+Publication [type = BOOK, publicationName = Fiction Name 1, publisher = Publisher2, publicationYear = 2011, number of pages = 180, genre = FICTION
+             Authors:[Sidorov S.S., Petrov P.P]]
+================================================================================================
+ Sorted Publications
+=======================
+Publication [type = ALBUM, genre = ART, publicationName = Albom Name 1, publisher = Publisher5, publicationYear = 2016, number of pages = 18]
+Publication [type = ALBUM, genre = THRICEAWEEK, publicationName = Albom Name 1, publisher = Publisher5, publicationYear = 2016, number of pages = 18]
+Publication [type = BOOK, publicationName = Fiction Name 1, publisher = Publisher2, publicationYear = 2011, number of pages = 180, genre = FICTION
+             Authors:[Sidorov S.S., Petrov P.P]]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2010, number of pages = 212, genre = HISTORICAL
+             Authors:[Ivanov I.I., Kyte T.]]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2011, number of pages = 128, genre = HISTORICAL
+             Authors:[Surkov K., Petrov P.P]]
+Publication [type = MAGAZINE, genre = ART, publicationName = Art MAGAZINEName, publisher = Publisher1, publicationYear = 2012, number of pages = 21]
+Publication [type = MAGAZINE, genre = FORKIDS, publicationName = Kids MAGAZINEName, publisher = Publisher3, publicationYear = 2017, number of pages = 11]
+Publication [type = MAGAZINE, genre = SCIENTIFIC, publicationName = Scientific MAGAZINEName, publisher = Publisher3, publicationYear = 2017, number of pages = 35]
+Publication [type = NEWSPAPER, genre = MONTHLY, publicationName = NEWSPAPER Name 1, publisher = Publisher1, publicationYear = 2017, number of pages = 8]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 2011, number of pages = 12]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 2017, number of pages = 4]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 9999, number of pages = 4]
+Publication [type = NEWSPAPER, genre = DAILY, publicationName = NEWSPAPER Name 3, publisher = Publisher3, publicationYear = 2017, number of pages = 6]
+================================================================================================
+ Requested publications
+=======================
+[null, null, Publisher1, 2010-2012, 0]
+================================================================================================
+ Find Publications
+=======================
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2010, number of pages = 212, genre = HISTORICAL
+             Authors:[Ivanov I.I., Kyte T.]]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2011, number of pages = 128, genre = HISTORICAL
+             Authors:[Surkov K., Petrov P.P]]
+Publication [type = MAGAZINE, genre = ART, publicationName = Art MAGAZINEName, publisher = Publisher1, publicationYear = 2012, number of pages = 21]
+Publication [type = NEWSPAPER, genre = WEEKLY, publicationName = NEWSPAPER Name 2, publisher = Publisher1, publicationYear = 2011, number of pages = 12]
+================================================================================================
+ Requested books
+=======================
+[null, null, null, 0, 0, null, Ivanov I.I.,Petrov P.P]
+================================================================================================
+ Find Books
+=======================
+Publication [type = BOOK, publicationName = Fiction Name 1, publisher = Publisher2, publicationYear = 2011, number of pages = 180, genre = FICTION
+             Authors:[Sidorov S.S., Petrov P.P]]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2010, number of pages = 212, genre = HISTORICAL
+             Authors:[Ivanov I.I., Kyte T.]]
+Publication [type = BOOK, publicationName = Historical Name 1, publisher = Publisher1, publicationYear = 2011, number of pages = 128, genre = HISTORICAL
+             Authors:[Surkov K., Petrov P.P]]
+================================================================================================

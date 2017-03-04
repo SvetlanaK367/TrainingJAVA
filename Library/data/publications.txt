@@ -1,0 +1,17 @@
+BOOK|Historical Name 1|Publisher1|2010|212|HISTORICAL|Ivanov I.I.,Kyte T.|
+BOOK|Fiction Name 1|Publisher2|2011|180|FICTION|Sidorov S.S.,Petrov P.P|
+BOOK|Historical Name 1|Publisher1|2015|128|HISTORICAL|Surkov K.,Petrov P.P|
+BOOK|Unknown Name 1|Publisher5|2017|300|new|Brown G.,Happle J.|
+MAGAZINE|Art MAGAZINEName|Publisher1|2012|21|ART|
+MAGAZINE|Kids MAGAZINEName|Publisher3|2017|11|FORKIDS|
+MAGAZINE|Scientific MAGAZINEName|Publisher3|2017|35|SCIENTIFIC|
+Unknown|Literary MAGAZINEName|Publisher3|2017|27|LITERARY|
+NEWSPAPER|NEWSPAPER Name 1|Publisher1|2017|8|MONTHLY|
+NEWSPAPER|NEWSPAPER Name 2|Publisher1|2017|4|WEEKLY|
+NEWSPAPER|NEWSPAPER Name 3|Publisher3|2017|6|DAILY|
+NEWSPAPER|NEWSPAPER Name 2|Publisher1|9999|4|WEEKLY|
+ALBUM|Albom Name 1|Publisher5|2016|18|THRICEAWEEK|
+NEWSPAPER|NEWSPAPER Name 2|Publisher1|2011|12|WEEKLY|
+ALBUM|Albom Name 1|Publisher5|2016|18|ART|
+ALBUM|Albom Name 1|Publisher5|2016|18|ART|
+ALBUM|Albom Name 1|Publisher5|YEAR|16|THRICEAWEEK|

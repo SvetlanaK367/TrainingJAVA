@@ -1,0 +1,14 @@
+package com.sviatlana.library.action;
+
+import java.util.ArrayList;
+
+import com.sviatlana.library.model.Publication;
+
+public class FindPublication {
+
+	public static ArrayList<Publication> findItem() {
+		
+		return null;
+		
+	}
+}

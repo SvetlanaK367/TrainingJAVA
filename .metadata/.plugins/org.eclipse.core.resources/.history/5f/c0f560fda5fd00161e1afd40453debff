@@ -1,0 +1,38 @@
+package com.sviatlana.library.model;
+
+import java.util.ArrayList;
+
+import com.sviatlana.library.model.PublicationModel;
+import com.sviatlana.library.validation.CustomException;
+
+
+public class PublicationInit {
+
+    private PublicationModel pType = null;
+    private String pGenre;
+    private String[] authors;
+    private String pName;
+    private String publisher;
+    private int pYear;
+    private int pages;
+
+    public Publication initEntity(String[] items) throws CustomException{
+
+        if (PublicationModel.existPublicationType(items[0])) {
+            pType = new PublicationModel(items[0]);
+        } else {
+            throw new CustomException("The model " + items[0] + " is not supported.");
+        }
+
+        authors = items[6].split("//|");
+
+        switch (pType) {
+            case PublicationModel.PublicationTypes.Book.name().trim() :
+                return new EntityBook(pType, items[1], items[2], Integer.parseInt(items[3]), Integer.parseInt(items[4]), items[5], authors);
+
+            default:
+                throw new CustomException("The model " + items[0] + " is not supported.");
+        }
+
+    }
+}

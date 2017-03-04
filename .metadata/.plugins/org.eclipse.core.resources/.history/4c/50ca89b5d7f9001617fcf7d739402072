@@ -1,0 +1,14 @@
+package com.sviatlana.library.main;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Main {
+	
+	Logger logger = LogManager.getLogger("Main");
+	
+	static void main (String[] arg) {
+		
+	}
+
+}

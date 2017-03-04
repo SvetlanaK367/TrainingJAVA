@@ -1,0 +1,12 @@
+Book, genre = Historical, name = Historical Name 1, was published in 2010 year by Publisher1. /n    Authors: /n    0. Ivanov I.I.;    2. Petrov P.P;
+Book, genre = Fiction, name = Fiction Name 1, was published in 2011 year by Publisher2. /n    Authors: /n    0. Sidorov S.S.;    2. Petrov P.P;
+Book, genre = Historical, name = Historical Name 1, was published in 2010 year by Publisher1. /n    Authors: /n    0. Ivanov I.I;    2. Petrov P.P;
+Magazine, genre = ForKids, name = Kids MagazineName, was published in 2017 year by Publisher1. /n    Authors: /n    0. ;
+Magazine, genre = PopularScientific, name = Scientific MagazineName, was published in 2017 year by Publisher3. /n    Authors: /n    0. ;
+Newspaper, genre = Monthly, name = Newspaper Name 1, was published in 2017 year by Publisher1. /n    Authors: /n    0. ;
+Newspaper, genre = Weekly, name = Newspaper Name 2, was published in 2017 year by Publisher1. /n    Authors: /n    0. ;
+Newspaper, genre = Daily, name = Newspaper Name 3, was published in 2017 year by Publisher3. /n    Authors: /n    0. ;
+Newspaper, genre = Weekly, name = Newspaper Name 2, was published in 9999 year by Publisher1. /n    Authors: /n    0. ;
+Album, genre = TwiceAWeek, name = Albom Name 1, was published in 2016 year by Publisher5. /n    Authors: /n    0. Sidorov S.S.;
+Newspaper, genre = Weekly, name = Newspaper Name 2, was published in 9999 year by Publisher1. /n    Authors: /n    0. ;
+Album, genre = Art, name = Albom Name 1, was published in 2016 year by Publisher5. /n    Authors: /n    0. Sidorov S.S.;

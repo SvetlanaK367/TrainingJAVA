@@ -1,0 +1,75 @@
+package com.sviatlana.library.io;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.sviatlana.library.model.Publication;
+import com.sviatlana.library.validation.CustomException;
+
+public class OutputResult {
+
+	static Logger logger = LogManager.getLogger("OutputResult");
+	
+	public static void printFile(ArrayList<Publication> printPublications, String filePath) {
+		
+		BufferedWriter writer = null;
+		File file = new File(filePath);
+		int index = 0;
+		String[] authors = null;
+		
+		try {
+			if(printPublications == null || printPublications.isEmpty()) {
+				throw new CustomException("The publication set is empty.");
+			}	
+			
+			writer = new BufferedWriter(new FileWriter(file, true));
+		
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+			for(Publication p : printPublications) {
+				authors = p.getPublicationAuthor(p);
+				
+				writer.write(p.getPublicationGenre(p) 
+						+ " " + p.getPublicationType(p)
+						+ " '" + p.getPublicationName(p) + "'"
+						+ " was published in " + p.getPublicationYear(p).toString() + " year"
+						+ " by " + p.getPublisher(p) + ".");
+				if(authors.length > 0) {
+					System.out.println("!!" + authors.length);
+					writer.newLine();
+					writer.write("    Authors:");
+					index = 1;
+					for(String author : authors) {
+						writer.newLine();					
+						writer.write("    " + (index++) + ". " + author + ";");
+					}
+				}
+	            writer.newLine();				
+				index++;
+			}
+            
+		} catch (IOException ex) {
+			logger.log(Level.ERROR, "IOException: " + ex);
+		} catch (CustomException ex) {
+			logger.log(Level.ERROR, "CustomException: " + ex);
+		} finally {
+			if (writer != null) {
+				try {
+					writer.close();
+				} catch (IOException ex) {
+					logger.log(Level.ERROR, "IOException: " + ex);
+				}
+			}
+		}
+		
+	}
+}

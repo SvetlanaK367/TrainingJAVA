@@ -1,0 +1,13 @@
+2017-03-02 16:04:39 [main] WARN  Main - The record 4 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The genre 'new' is not supported.
+2017-03-02 16:04:39 [main] WARN  Main - The record 8 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The model 'Unknown' is not supported.
+2017-03-02 16:04:39 [main] WARN  Main - The record 16 is duplicated. 
+2017-03-02 16:04:39 [main] WARN  Main - The record 17 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The year 'YEAR' should be numeric.
+2017-03-02 16:06:42 [main] WARN  Main - The record 4 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The genre 'new' is not supported.
+2017-03-02 16:06:42 [main] WARN  Main - The record 8 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The model 'Unknown' is not supported.
+2017-03-02 16:06:42 [main] WARN  Main - The record 16 is duplicated. 
+2017-03-02 16:06:42 [main] WARN  Main - The record 17 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The year 'YEAR' should be numeric.
+2017-03-02 16:06:42 [main] ERROR Main - CustomException: com.sviatlana.library.validation.CustomException: The publication set is empty.
+2017-03-02 16:08:53 [main] WARN  Main - The record 4 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The genre 'new' is not supported.
+2017-03-02 16:08:53 [main] WARN  Main - The record 8 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The model 'Unknown' is not supported.
+2017-03-02 16:08:53 [main] WARN  Main - The record 16 is duplicated. 
+2017-03-02 16:08:53 [main] WARN  Main - The record 17 is incorrect. Please check: com.sviatlana.library.validation.CustomException: The year 'YEAR' should be numeric.

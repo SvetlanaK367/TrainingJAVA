@@ -1,0 +1,17 @@
+Book|Historical|Historical Name 1|Ivanov I.I.,Petrov P.P|Publisher1|2010|212|
+Book|Fiction|Fiction Name 1|Sidorov S.S.,Petrov P.P|Publisher2|2011|180|
+Book|Historical|Historical Name 1|Ivanov I.I,Petrov P.P|Publisher1|2010|212|
+Book|new|Unknown Name 1|Brown G.,Happle J.|Publisher5|2017|300nn|
+Magazine|Art|Art MagazineName||Publisher3|2017|21|
+Magazine|ForKids|Kids MagazineName||Publisher1|2017|11|
+Magazine|PopularScientific|Scientific MagazineName||Publisher3|2017|35|
+Unknown|Literary|Literary MagazineName||Publisher3|2017|27|
+Newspaper|Monthly|Newspaper Name 1||Publisher1|2017|8|
+Newspaper|Weekly|Newspaper Name 2||Publisher1|2017|4|
+Newspaper|Daily|Newspaper Name 3||Publisher3|2017|6|
+Newspaper|Weekly|Newspaper Name 2||Publisher1|9999|4|
+Album|TwiceAWeek|Albom Name 1|Sidorov S.S.|Publisher5|2016|18|
+Newspaper|Weekly|Newspaper Name 2||Publisher1|9999|4|
+Album|Art|Albom Name 1|Sidorov S.S.|Publisher5|2016|18|
+Album|TwiceAWeek|Albom Name 1||Publisher5|YEAR|16|
+

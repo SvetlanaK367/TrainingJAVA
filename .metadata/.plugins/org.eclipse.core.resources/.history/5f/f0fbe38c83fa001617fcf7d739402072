@@ -1,0 +1,5 @@
+package com.sviatlana.library.action;
+
+public class SortPublication {
+
+}

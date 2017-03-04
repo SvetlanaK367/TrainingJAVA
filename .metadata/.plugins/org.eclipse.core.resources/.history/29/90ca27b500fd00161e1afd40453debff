@@ -1,0 +1,22 @@
+2017-02-27 18:14:52 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-27 18:15:43 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-27 18:18:47 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-27 18:22:42 [main] WARN  InputData - The record 1 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 2 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 3 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 4 is duplicated. 
+2017-02-27 18:22:42 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-27 18:22:42 [main] WARN  InputData - The record 6 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 7 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 8 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 9 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 10 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 11 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 12 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 13 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 14 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 15 is duplicated. 
+2017-02-27 18:22:42 [main] WARN  InputData - The record 16 is duplicated. 
+2017-02-27 18:22:42 [main] ERROR InputData - The record 17 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-27 18:22:42 [main] ERROR OutputResult - CustomException: com.sviatlana.library.validation.CustomException: The publication set is empty.
+2017-02-27 18:22:42 [main] ERROR OutputResult - CustomException: com.sviatlana.library.validation.CustomException: The publication set is empty.

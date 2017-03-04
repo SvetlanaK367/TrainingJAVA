@@ -1,0 +1,8 @@
+2017-02-26 21:07:42 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-26 21:07:42 [main] ERROR InputData - The record 17 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-26 21:07:42 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-26 21:07:42 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-26 21:11:43 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-26 21:11:43 [main] ERROR InputData - The record 17 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-26 21:11:43 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-26 21:11:43 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;

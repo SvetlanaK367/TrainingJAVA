@@ -1,0 +1,10 @@
+package com.sviatlana.library.action;
+
+import java.util.ArrayList;
+
+import com.sviatlana.library.model.Publication;
+
+public class SortPublication {
+
+	public ArrayList<Publication> sortItems(ArrayList<Publication> pArray, String method, String file);
+}

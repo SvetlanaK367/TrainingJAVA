@@ -1,0 +1,8 @@
+package com.sviatlana.library.model;
+
+/**
+ * Created by Sviatlana_Kastsenka on 2/28/2017.
+ */
+public class ItemBook {
+
+}

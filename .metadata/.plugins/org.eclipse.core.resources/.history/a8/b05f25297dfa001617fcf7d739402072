@@ -1,0 +1,13 @@
+package com.sviatlana.library.main;
+
+import java.text.SimpleDateFormat;
+
+public class FileNameCreation {
+
+	protected String nameFromDate(String textBegin, String fileExtension) {
+		String fileName;
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+		
+		return fileName;
+	}
+}

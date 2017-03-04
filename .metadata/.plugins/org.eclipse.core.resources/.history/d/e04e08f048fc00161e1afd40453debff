@@ -1,0 +1,58 @@
+package com.sviatlana.library.main;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.action.FindPublication;
+import com.sviatlana.library.action.SortPublication;
+import com.sviatlana.library.io.InputData;
+import com.sviatlana.library.io.OutputResult;
+import com.sviatlana.library.model.Publication;
+import com.sviatlana.library.validation.CustomException;
+import com.sviatlana.library.validation.PublicationCheck;
+
+public class Main {
+	
+	static Logger logger = LogManager.getLogger("Main");
+	
+	public static void main (String[] args) {
+		String fileIn = "data\\publications.txt"; 
+		String fileOut = "data\\output_";
+		ArrayList<Publication> inputPublication = null;
+		ArrayList<Publication> correctPublication = null;
+		List<Publication> findPublication = null;
+		ArrayList<Publication> publicationsSet = null;
+		String sortMethod = null;
+		
+		try {
+			inputPublication = InputData.inputItem(fileIn);
+			fileOut = FileNameCreation.nameFromDate(fileOut, "txt");
+			
+			correctPublication = PublicationCheck.itemsCheck(inputPublication);
+			OutputResult.printFile(correctPublication, fileOut);	
+			
+			//publicationsSet = FindPublication.findItem(correctPublication, findPublication);
+			//OutputResult.printFile(publicationsSet, fileOut);
+			
+			//for(Publication p: correctPublication)  
+		    Collections.sort(correctPublication);
+		      
+			
+			//List<T> sortedList = SortPublication<T>.sort(correctPublication, "startDate");
+			
+			//publicationsSet = SortPublication.sortItems(correctPublication, sortMethod);
+			//OutputResult.printFile(publicationsSet, fileOut);			
+			
+		} catch (CustomException ex) {
+			logger.log(Level.ERROR, "CustomException: " + ex);
+		} catch (RuntimeException ex) {
+			logger.log(Level.ERROR, "RuntimeException: " + ex);
+		}
+	}
+
+}

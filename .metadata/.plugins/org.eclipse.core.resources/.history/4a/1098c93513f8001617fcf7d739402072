@@ -1,3 +1,0 @@
-2017-02-20 18:47:45 [main] INFO  Main - this first log
-2017-02-20 18:47:45 [main] ERROR Main - The radius should be positive: line = 2, radius = -3
-2017-02-20 18:47:45 [main] ERROR Main - The radius cannot be zero. See line 3

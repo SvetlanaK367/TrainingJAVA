@@ -1,7 +1,0 @@
-2017-02-17 16:31:36 [main] INFO  Main - this first log
-2017-02-17 16:31:47 [main] INFO  Main - this first log
-2017-02-17 16:33:38 [main] INFO  Main - this first log
-2017-02-17 16:35:57 [main] INFO  Main - this first log
-2017-02-17 16:38:45 [main] INFO  Main - this first log
-2017-02-17 16:38:45 [main] WARN  Main - The radius should be positive: line = 2, radius = -3
-2017-02-17 16:38:45 [main] WARN  Main - The radius cannot be zero. See line 3

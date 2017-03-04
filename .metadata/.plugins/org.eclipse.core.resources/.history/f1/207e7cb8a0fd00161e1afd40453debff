@@ -1,0 +1,51 @@
+package com.sviatlana.library.model;
+
+import java.util.ArrayList;
+
+import com.sviatlana.library.model.*;
+import com.sviatlana.library.validation.CustomException;
+
+
+public class PublicationInit {
+
+    private PublicationModel pType = null;
+    private String pGenre;
+    private String[] pAuthors;
+    private String pName;
+    private String publisher;
+    private int Year;
+    private int pPages;
+
+    public Publication initEntity(String[] items) throws CustomException{
+
+        if (existPublicationType(items[0])) {
+            pType = (PublicationModel) items[0];
+        } else {
+            throw new CustomException("The model " + items[0] + " is not supported.");
+        }
+
+        switch (pType) {
+            case "Book":
+                return new EntityBook(pType, String items[1], String items[2], int items[3], int items[4], String items[5], String[] items[6]);
+
+        }
+
+        if (parts.length == AirplaneInit.AIRLINER_PARTS_LENGTH) {
+            return new Airliner(parts[0],
+                    Integer.parseInt(parts[1]),
+                    Float.parseFloat(parts[2]),
+                    Float.parseFloat(parts[3]),
+                    AirplaneModel.valueOf(parts[4]),
+                    Boolean.parseBoolean(parts[5]),
+                    Float.parseFloat(parts[6]),
+                    Integer.parseInt(parts[7]));
+        } else {
+            return new CargoAirplane(parts[0],
+                    Integer.parseInt(parts[1]),
+                    Float.parseFloat(parts[2]),
+                    Float.parseFloat(parts[3]),
+                    AirplaneModel.valueOf(parts[4]),
+                    Integer.parseInt(parts[5]));
+        }
+    }
+}

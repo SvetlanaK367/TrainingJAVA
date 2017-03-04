@@ -1,0 +1,35 @@
+2017-02-25 18:32:57 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:32:57 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:32:57 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check. /n    The genre: new/n
+2017-02-25 18:32:57 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check. /n    The type: Unknown/n
+2017-02-25 18:32:57 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 18:34:26 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:34:26 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:34:26 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check. /n    The genre: new/n
+2017-02-25 18:34:26 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check. /n    The type: Unknown/n
+2017-02-25 18:34:26 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 18:37:27 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:37:27 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:37:27 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check:     The genre: new.
+2017-02-25 18:37:27 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check:     The type: Unknown.
+2017-02-25 18:37:27 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 18:38:23 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:38:23 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:38:23 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 18:38:23 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 18:38:23 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 18:43:21 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:43:21 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:43:21 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 18:43:21 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 18:43:21 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 18:44:32 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:44:32 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:44:32 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 18:44:32 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 18:44:32 [main] ERROR Main - RuntimeException: java.lang.NullPointerException
+2017-02-25 18:48:08 [main] ERROR InputData - The record 5 is incorrect: java.lang.NumberFormatException: For input string: "21nn"
+2017-02-25 18:48:08 [main] ERROR InputData - The record 16 is incorrect: java.lang.NumberFormatException: For input string: "YEAR"
+2017-02-25 18:48:08 [main] WARN  PublicationValidate - The publication 4 is incorrect. Please check: the genre = new;
+2017-02-25 18:48:08 [main] WARN  PublicationValidate - The publication 7 is incorrect. Please check: the type = Unknown;
+2017-02-25 18:48:08 [main] ERROR Main - RuntimeException: java.lang.NullPointerException

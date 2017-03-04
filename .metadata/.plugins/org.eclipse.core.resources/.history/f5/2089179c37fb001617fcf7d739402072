@@ -1,0 +1,59 @@
+package com.sviatlana.library.io;
+
+import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sviatlana.library.model.Publication;
+import com.sviatlana.library.validation.CustomException;
+
+public class InputData {
+	
+	static Logger logger = LogManager.getLogger("InputData"); 
+	
+	public static ArrayList<Publication> inputItem(String filePath) throws CustomException {
+		ArrayList<Publication> results = new ArrayList<Publication>();
+		File file = new File(filePath);
+		String line = null;
+		String[] items = null;
+		BufferedReader reader = null;
+		
+		if (!file.exists()) {
+			throw new CustomException("File does not exist. Please check the path: " + filePath);
+		}
+
+		try {
+			reader = new BufferedReader(new FileReader(file));
+			line = reader.readLine();
+			System.out.println(line);
+			
+			while (line != null) {
+				items = line.split("|");
+				System.out.println(items[0] + ";" + items[1]);
+				
+			    //results.add(new Publication(line.split("|")));
+			    line = reader.readLine();
+			}
+				
+		} catch(IOException ex) {
+			logger.log(Level.ERROR, ex);
+		} finally {
+			try {
+				if(reader != null) {
+					reader.close();
+				}
+			} catch (IOException ex) {
+				logger.log(Level.ERROR, ex);
+			}
+		}
+		
+		return results;
+	
+	}
+}

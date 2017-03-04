@@ -1,0 +1,219 @@
+package com.sviatlana.library.model;
+
+import java.util.Comparator;
+import java.util.List;
+
+public class Publication extends AbstractModel implements Comparable<Publication> {
+
+	public Publication(){}
+	
+	public Publication(String[] values) {
+		this.publicationType = values[0];
+		this.publicationGenre = values[1];
+		this.publicationName = values[2];
+		this.authorsName = values[3].split(",");
+		this.publisher = values[4];
+		this.publicationYear = Integer.parseInt(values[5]);
+		this.pagesNumber = Integer.parseInt(values[6]);
+	}
+
+	// Publication 
+	@Override
+	public List<Publication> getPublication() {
+		return item;
+	}
+	@Override
+	public void setPublication(List<Publication> inputItem) {
+		this.item = inputItem;
+	}
+	
+	// Type
+	@Override
+	public String getPublicationType(Publication item) {
+		return item.publicationType;
+	}	
+	@Override
+	public void setPublicationType(String pType) {
+		this.publicationType = pType;
+	}	
+	@Override
+	public boolean existPublicationType(String pType) {
+		try {
+			PublicationTypes.valueOf(pType);
+			return true;
+		} catch (Exception ex) {
+			return false;
+		}
+	}	
+	
+	// Genre
+	@Override
+	public String getPublicationGenre(Publication item) {
+		return item.publicationGenre;
+	}	
+	@Override
+	public void setPublicationGenre(String pGenre){
+		this.publicationGenre = pGenre;
+	}
+	@Override
+	public boolean existPublicationGenre(String pGenre) {
+		try {
+			PublicationGenres.valueOf(pGenre);
+			return true;
+		} catch (Exception ex) {
+			return false;
+		}
+	}		
+	
+	// Name
+	@Override
+	public String getPublicationName(Publication item) {
+		return item.publicationName;
+	}
+	@Override
+	public void setPublicationName(String pName) {
+		this.publicationName = pName;
+	}
+	
+	// Authors	
+	@Override
+	public String[] getPublicationAuthor(Publication item) {
+		return item.authorsName;
+	}
+	@Override
+	public void setPublicationAuthor(String[] pAuthors) {
+		this.authorsName = pAuthors;	
+	}
+	public int getAuthorNumber(Publication item) {
+		String[] authors = item.getPublicationAuthor(item);
+		return authors.length;
+	}
+	
+	// Publisher
+	@Override
+	public String getPublisher(Publication item) {
+		return item.publisher;
+	}
+	@Override
+	public void setPublisher(String pPublisher) {
+		this.publisher = pPublisher;	
+	}	
+	
+	// Year
+	@Override
+	public Integer getPublicationYear(Publication item) {
+		return item.publicationYear;
+	}
+	@Override
+	public void setPublicationYear(int pYear) {
+		this.publicationYear = pYear;	
+	}	
+	
+	// Pages
+	@Override
+	public Integer getPublicationPages(Publication item) {
+		return item.pagesNumber;
+	}
+	@Override
+	public void setPublicationPages(int pPages) {
+		this.pagesNumber = pPages;	
+	}
+	
+	@Override
+	public void findPublication() {
+		
+	}
+	
+	@Override
+	public void sortPublication() {
+		
+	}
+
+	@Override
+    public String toString() {
+		String[] authors = authorsName;
+		String strAuthors = null;
+		
+		if(!authors[0].isEmpty()) {
+			strAuthors = "Authors:";
+			for(String author : authors) {
+				strAuthors += author + ";";
+			}
+		} else {
+			strAuthors = "";
+		}
+		
+        return "Publication [type=" + publicationType + ", genre=" + publicationGenre 
+        	+ ", publicationName=" + publicationName + ", publisher=" + publisher
+        	+ ", publicationYear" + publicationYear + ", number of pages=" + pagesNumber + "." 
+        	+ strAuthors + "]";
+    }
+
+
+    //@Override
+    public int compare(Publication p1, Publication p2) {
+        if (p1.toString().compareToIgnoreCase(p2.toString())>0)
+            return 1;
+        else if (p1.toString().compareToIgnoreCase(p2.toString())<0)
+            return -1;
+        else
+            return 0;
+    }
+
+    private int compareNullHelper(Object a, Object b) {
+        // sorts nulls first
+        if (a == null) {
+            if (b != null) { return -1; }
+        } else if (b == null) { return 1; }
+        return a.compareTo(b);
+    }
+
+    //@Override
+    public int compareTo(Publication pCompare) {
+        // ensures consistency with equals()
+        if (this.equals(pCompare)) { return 0; }
+
+        int res = compareNullHelper(this.publicationType, pCompare.publicationType);
+        if (res != 0) { return res; }
+
+        res = compareNullHelper(this.publicationName, pCompare.publicationName);
+        if (res != 0) { return res; }
+
+        res = this.publicationYear - pCompare.publicationYear;
+        if (res != 0) { return res; }
+
+        res = compareNullHelper(this.publisher, pCompare.publisher);
+        if (res != 0) { return res; }
+
+        // If you can't tell, return -1 which means that they are in the right
+        // order but unequal - ensures consistency with equals()
+        return -1;
+    }
+
+	
+	/*	@Override
+		public boolean existPublicationType(PublicationTypes pType) {
+			for (PublicationTypes itemType : PublicationTypes.values()) {
+				if(itemType == pType) {
+					return true;
+				}
+			}
+			return false;
+		}*/
+		/*
+		@Override
+		public boolean existPublicationType(PublicationTypes pType) {
+			return EnumSet.allOf(PublicationTypes.class).contains(pType);
+		} */
+	
+
+
+	public int compare(T o1, T o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int compareTo(Publication o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}}

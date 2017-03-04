@@ -1,0 +1,145 @@
+package com.sviatlana.library.model;
+
+import java.util.List;
+
+public class Publication extends AbstractModel{
+
+	public Publication(){}
+	
+	public Publication(String[] values) {
+		System.out.println(values);
+		System.out.println("values0=" + values[0]);
+		this.publicationType = values[0];
+		this.publicationGenre = values[1];
+		this.publicationName = values[2];
+		this.authorsName = values[3].split(",");
+		this.publisher = values[4];
+		this.publicationYear = Integer.parseInt(values[5]);
+		this.pagesNumber = Integer.parseInt(values[6]);
+	}
+
+	// Publication 
+	@Override
+	public List<Publication> getPublication() {
+		return item;
+	}
+	@Override
+	public void setPublication(List<Publication> inputItem) {
+		this.item = inputItem;
+	}
+	
+	// Type
+	@Override
+	public String getPublicationType(Publication item) {
+		return item.publicationType;
+	}	
+	@Override
+	public void setPublicationType(String pType) {
+		this.publicationType = pType;
+	}	
+	@Override
+	public boolean existPublicationType(String pType) {
+		try {
+			PublicationTypes.valueOf(pType);
+			return true;
+		} catch (Exception ex) {
+			return false;
+		}
+	}	
+	
+	// Genre
+	@Override
+	public String getPublicationGenre(Publication item) {
+		return item.publicationGenre;
+	}	
+	@Override
+	public void setPublicationGenre(String pGenre){
+		this.publicationGenre = pGenre;
+	}
+	@Override
+	public boolean existPublicationGenre(String pGenre) {
+		try {
+			PublicationGenres.valueOf(pGenre);
+			return true;
+		} catch (Exception ex) {
+			return false;
+		}
+	}		
+	
+	// Name
+	@Override
+	public String getPublicationName(Publication item) {
+		return item.publicationName;
+	}
+	@Override
+	public void setPublicationName(String pName) {
+		this.publicationName = pName;
+	}
+	
+	// Authors	
+	@Override
+	public String[] getPublicationAuthor(Publication item) {
+		return item.authorsName;
+	}
+	@Override
+	public void setPublicationAuthor(String[] pAuthors) {
+		this.authorsName = pAuthors;	
+	}
+	
+	// Publisher
+	@Override
+	public String getPublisher(Publication item) {
+		return item.publisher;
+	}
+	@Override
+	public void setPublisher(String pPublisher) {
+		this.publisher = pPublisher;	
+	}	
+	
+	// Year
+	@Override
+	public Integer getPublicationYear(Publication item) {
+		return item.publicationYear;
+	}
+	@Override
+	public void setPublicationYear(int pYear) {
+		this.publicationYear = pYear;	
+	}	
+	
+	// Pages
+	@Override
+	public Integer getPublicationPages(Publication item) {
+		return item.pagesNumber;
+	}
+	@Override
+	public void setPublicationPages(int pPages) {
+		this.pagesNumber = pPages;	
+	}
+	
+	@Override
+	public void findPublication() {
+		
+	}
+	
+	@Override
+	public void sortPublication() {
+		
+	}
+
+	
+	/*	@Override
+		public boolean existPublicationType(PublicationTypes pType) {
+			for (PublicationTypes itemType : PublicationTypes.values()) {
+				if(itemType == pType) {
+					return true;
+				}
+			}
+			return false;
+		}*/
+		/*
+		@Override
+		public boolean existPublicationType(PublicationTypes pType) {
+			return EnumSet.allOf(PublicationTypes.class).contains(pType);
+		} */
+	
+}

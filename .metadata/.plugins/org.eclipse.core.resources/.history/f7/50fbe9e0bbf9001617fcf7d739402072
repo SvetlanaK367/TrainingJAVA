@@ -1,0 +1,28 @@
+package com.sviatlana.library.model;
+
+import java.util.List;
+
+enum PublicationType {
+	Book, Magazine, Album, Newspaper
+}
+enum PublicationGenre {
+	Historical, Fiction, Detective, FairyTale, Tutorial, Encyclopedia, Scientific, Technical,
+	ForKids, Art, PopularScientific, Literary, Newsmagazines, PhotoAlbum,	
+	Monthly, Weekly, Daily, ThriceAWeek, TwiceAWeek 
+}
+abstract public class AbstractModel {
+	String publicationType;
+	String publicationGenre;
+	String publicationName;
+	String[] authorsName;
+	String publisher;
+	int publicationYear;
+	int pagesNumber;
+	List<Publication> item; 
+	
+	public abstract List<Publication> getPublication();
+	public abstract void setPublication(List<Publication> item);
+	public abstract void findPublication();
+	public abstract void sortPublication();
+	
+}
