@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:tns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.example.com/OldCards OldCards"
+    xmlns:tns="http://www.example.com/OldCards" cards>
+    <element name="OldCards">
+        <complexType>
+	    <sequence>
+	        <element name="card" type="tns:Card" minOccurs="1" maxOccurs="unbounded" />
+            </sequence>
+	</complexType>
+    </element>
+    <complexType name="Card">
+        <sequence>
+	    <element name="year" type="integer" />
+	    <element name="country" type="string" />
+	    <element name="author" type="string" />
+	    <element name="characteristic" type="tns:Characteristic" />
+	</sequence>
+	<attribute name="id" type="tns:Id" use="required" />
+	<attribute name="thema" type="string" use="required" />
+	<attribute name="type" type="string" use="required" />
+    </complexType>
+    <simpleType name="Id">
+        <restriction base="ID">
+	    <pattern value="[a-zA-Z]{3}[a-zA-Z0-9_]*"/>
+	</restriction>
+    </simpleType>
+    <complexType name="Characteristic">
+        <sequence>
+	    <element name="valuable" type="string" />
+	    <element name="numbers" type="imteger" />
+	    <element name="colored" type="string" />
+	</sequence>
+    </complexType>
+</schema>

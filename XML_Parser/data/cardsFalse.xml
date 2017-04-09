@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OldCards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.example.com/OldCards"
+        xsi:schemaLocation="http://www.example.com/OldCards cards.xsd">
+    <card registration="r00001" author="Ivanov" colored="no">
+        <year>1891</year>
+        <country>Russia</country>
+	<numbers>100</numbers>
+	<characteristic>
+	    <valuable>historical</valuable>
+	    <thema>Cityscape</thema>
+	    <type>Greeting</type>
+	</characteristic>
+    </card>
+    <card registration="r00002" author="Krishtov" colored="maybe">
+        <year>1900</year>
+        <country>Poland</country>
+	<numbers>90</numbers>
+	<characteristic>
+	    <valuable>thematic</valuable>
+	    <thema>Nature</thema>
+	    <type>General</type>
+	</characteristic>
+    </card>
+    <card registration="r00003" author="Petrov" colored="no">
+        <year>1917</year>
+        <country>Russia</country>
+	<numbers>one hundred</numbers>
+	<characteristic>
+	    <valuable>historical</valuable>
+	    <thema>People</thema>
+	    <type>Advertising</type>
+	</characteristic>
+    </card>
+    <card registration="r00004!!!" author="Sidorov" colored="no">
+        <year>1878</year>
+        <country>Russia</country>
+	<numbers>20</numbers>
+	<characteristic>
+	    <valuable>collectible</valuable>
+	    <thema>Religion</thema>
+	    <type>General</type>
+	</characteristic>
+    </card>
+    <card registration="r00005" author="Hipple" colored="yes">
+        <year>1955</year>
+        <country>USA</country>
+	<numbers>300</numbers>
+	<characteristic>
+	    <valuable>unusual</valuable>
+	    <thema>Sport</thema>
+	    <type>Advertising</type>
+	</characteristic>
+    </card>
+    <card registration="r00006" author="Greco" colored="no">
+        <year>1791</year>
+        <country>Greece</country>
+	<numbers>50</numbers>
+	<characteristic>
+	    <valuable>historical</valuable>
+	    <thema>Architecture</thema>
+	    <type>General</type>
+	</characteristic>
+    </card>
+    <card registration="r00007" author="Savicki" colored="yes">
+        <year>1980</year>
+        <country>Belarus</country>
+	<numbers>300</numbers>
+	<characteristic>
+	    <valuable>thematic</valuable>
+	    <thema>Nature</thema>
+	    <type>Greeting</type>
+	</characteristic>
+    </card>
+</OldCards>

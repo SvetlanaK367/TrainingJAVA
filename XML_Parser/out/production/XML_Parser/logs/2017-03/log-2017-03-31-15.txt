@@ -1,0 +1,6 @@
+2017-03-31 15:09:53 [main] ERROR XMLErrorHandler - 15 : 67 - cvc-enumeration-valid: Value 'maybe' is not facet-valid with respect to enumeration '[yes, no]'. It must be a value from the enumeration.
+2017-03-31 15:09:53 [main] ERROR XMLErrorHandler - 15 : 67 - cvc-attribute.3: The value 'maybe' of attribute 'colored' on element 'card' is not valid with respect to its type, 'null'.
+2017-03-31 15:09:53 [main] ERROR XMLErrorHandler - 28 : 32 - cvc-datatype-valid.1.2.1: 'one hundred' is not a valid value for 'integer'.
+2017-03-31 15:09:53 [main] ERROR XMLErrorHandler - 28 : 32 - cvc-type.3.1.3: The value 'one hundred' of element 'numbers' is not valid.
+2017-03-31 15:09:53 [main] ERROR XMLErrorHandler - 35 : 66 - cvc-pattern-valid: Value 'r00004!!!' is not facet-valid with respect to pattern '[a-zA-Z]{1}[a-zA-Z0-9_]{5}' for type 'Id'.
+2017-03-31 15:09:53 [main] ERROR XMLErrorHandler - 35 : 66 - cvc-attribute.3: The value 'r00004!!!' of attribute 'registration' on element 'card' is not valid with respect to its type, 'Id'.

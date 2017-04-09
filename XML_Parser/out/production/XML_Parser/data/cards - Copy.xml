@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OldCards>
+    <card thema="Cityscape" type="Greeting">
+        <year>1891</year>
+        <country>Russia</country>
+	<author>Ivanov</author>
+	<characteristic>
+	    <valuable>historical</valuable>
+	    <numbers>100</numbers>
+	    <colored>no</colored>
+	</characteristic>
+    </card>
+    <card thema="Nature" type="General">
+        <year>1900</year>
+        <country>Poland</country>
+	<author>Krishtov</author>
+	<characteristic>
+	    <valuable>thematic</valuable>
+	    <numbers>90</numbers>
+	    <colored>yes</colored>
+	</characteristic>
+    </card>
+    <card thema="People" type="Advertising">
+        <year>1917</year>
+        <country>Russia</country>
+	<author>Petrov</author>
+	<characteristic>
+	    <valuable>historical</valuable>
+	    <numbers>120</numbers>
+	    <colored>no</colored>
+	</characteristic>
+    </card>
+    <card thema="Religion" type="General">
+        <year>1878</year>
+        <country>Russia</country>
+	<author>Sidorov</author>
+	<characteristic>
+	    <valuable>collectible</valuable>
+	    <numbers>20</numbers>
+	    <colored>no</colored>
+	</characteristic>
+    </card>
+    <card thema="Sport" type="Advertising">
+        <year>1955</year>
+        <country>USA</country>
+	<author>Hipple</author>
+	<characteristic>
+	    <valuable>unusual</valuable>
+	    <numbers>300</numbers>
+	    <colored>yes</colored>
+	</characteristic>
+    </card>
+    <card thema="Architecture" type="General">
+        <year>1791</year>
+        <country>Greece</country>
+	<author>Greco</author>
+	<characteristic>
+	    <valuable>historical</valuable>
+	    <numbers>50</numbers>
+	    <colored>no</colored>
+	</characteristic>
+    </card>
+    <card thema="Nature" type="Greeting">
+        <year>1980</year>
+        <country>Belarus</country>
+	<author>Savicki</author>
+	<characteristic>
+	    <valuable>thematic</valuable>
+	    <numbers>300</numbers>
+	    <colored>yes</colored>
+	</characteristic>
+    </card>
+</OldCards>
