@@ -1,0 +1,5 @@
+package com.sviatlana.web.commands;
+
+public class XMLErrorHandler {
+
+}

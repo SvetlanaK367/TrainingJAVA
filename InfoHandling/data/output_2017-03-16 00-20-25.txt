@@ -1,0 +1,63 @@
+ Input Text
+=======================
+	Hadoop got its start in Nutch. A few of us were attempting to build an open source web
+search engine and having trouble managing computations running on even a handful of
+computers. Once Google published its GFS and MapReduce papers, the route became
+clear. They would devised systems to solve precisely the problems we were having with Nutch.
+So we started, two of us, half-time, to try to re-create these systems as a part of Nutch.
+	We managed to get Nutch limping along on 20 machines, but it soon became clear that to
+handle the Web massive scale, we would need to run it on thousands of machines, and
+moreover, that the job was bigger than two half-time developers could handle.
+	Around that time, Yahoo got interested, and quickly put together a team that I joined. We
+split off the distributed computing part of Nutch, naming it Hadoop. With the help of
+Yahoo, Hadoop soon grew into a technology that could truly scale to the Web.
+
+
+================================================================================================
+ Parsed Text
+=======================
+	Hadoop  got  its  start  in  Nutch. A  few  of  us  were  attempting  to  build  an  open  source  web  search  engine  and  having  trouble  managing  computations  running  on  even  a  handful  of  computers. Once  Google  published  its  GFS  and  MapReduce  papers, the  route  became  clear. They  would  devised  systems  to  solve  precisely  the  problems  we  were  having  with  Nutch. So  we  started, two  of  us, half-time, to  try  to  re-create  these  systems  as  a  part  of  Nutch. 
+	We  managed  to  get  Nutch  limping  along  on  20  machines, but  it  soon  became  clear  that  to  handle  the  Web  massive  scale, we  would  need  to  run  it  on  thousands  of  machines, and  moreover, that  the  job  was  bigger  than  two  half-time  developers  could  handle. 
+	Around  that  time, Yahoo  got  interested, and  quickly  put  together  a  team  that  I  joined. We  split  off  the  distributed  computing  part  of  Nutch, naming  it  Hadoop. With  the  help  of  Yahoo, Hadoop  soon  grew  into  a  technology  that  could  truly  scale  to  the  Web. 
+
+================================================================================================
+ Sorted Lexemes by their count
+=======================
+Lexemes=6, Hadoop  got  its  start  in  Nutch.  
+Lexemes=12, Once  Google  published  its  GFS  and  MapReduce  papers, the  route  became  clear.  
+Lexemes=12, We  split  off  the  distributed  computing  part  of  Nutch, naming  it  Hadoop.  
+Lexemes=14, They  would  devised  systems  to  solve  precisely  the  problems  we  were  having  with  Nutch.  
+Lexemes=15, Around  that  time, Yahoo  got  interested, and  quickly  put  together  a  team  that  I  joined.  
+Lexemes=18, With  the  help  of  Yahoo, Hadoop  soon  grew  into  a  technology  that  could  truly  scale  to  the  Web.  
+Lexemes=18, So  we  started, two  of  us, half-time, to  try  to  re-create  these  systems  as  a  part  of  Nutch.  
+Lexemes=26, A  few  of  us  were  attempting  to  build  an  open  source  web  search  engine  and  having  trouble  managing  computations  running  on  even  a  handful  of  computers.  
+Lexemes=45, We  managed  to  get  Nutch  limping  along  on  20  machines, but  it  soon  became  clear  that  to  handle  the  Web  massive  scale, we  would  need  to  run  it  on  thousands  of  machines, and  moreover, that  the  job  was  bigger  than  two  half-time  developers  could  handle.  
+
+================================================================================================
+ Lexemes Sorted by Letters
+=======================
+
+	20; 
+	an; as; a; around; along; and; attempting; 
+	bigger; but; became; build; 
+	could; computers.; clear.; computing; computations; clear; 
+	developers; devised; distributed; 
+	even; engine; 
+	few; 
+	google; get; gfs; got; grew; 
+	having; handle; half-time,; handle.; hadoop.; help; half-time; hadoop; handful; 
+	in; it; into; i; interested,; its; 
+	job; joined.; 
+	limping; 
+	machines,; managed; moreover,; massive; mapreduce; managing; 
+	need; naming; nutch.; nutch,; nutch; 
+	off; open; once; of; on; 
+	put; papers,; published; problems; part; precisely; 
+	quickly; 
+	route; run; running; re-create; 
+	soon; search; systems; so; source; split; solve; started,; scale; start; scale,; 
+	these; truly; they; thousands; two; together; time,; team; the; to; that; than; try; trouble; technology; 
+	us,; us; 
+	would; web; web.; were; we; was; with; 
+	yahoo; yahoo,; 
+================================================================================================

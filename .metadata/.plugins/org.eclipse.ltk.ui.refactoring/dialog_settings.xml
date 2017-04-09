@@ -4,4 +4,14 @@
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
 	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="RefactoringWizard.Externalize strings in &apos;ConfigurationManager.java&apos;">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="RefactoringWizard.Externalize strings in &apos;MessageManager.java&apos;">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
 </section>

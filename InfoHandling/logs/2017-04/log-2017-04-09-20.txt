@@ -1,0 +1,11 @@
+2017-04-09 20:04:15 [main] ERROR LexemeCountTest - RuntimeException: java.lang.NullPointerException
+2017-04-09 20:04:15 [main] ERROR TextOutput - CustomException: com.sviatlana.infohandling.exception.CustomException: The text is empty.
+2017-04-09 20:04:15 [main] ERROR TextOutput - CustomException: com.sviatlana.infohandling.exception.CustomException: The text is empty.
+2017-04-09 20:08:22 [main] ERROR TextOutput - CustomException: com.sviatlana.infohandling.exception.CustomException: The text is empty.
+2017-04-09 20:08:22 [main] ERROR TextOutput - CustomException: com.sviatlana.infohandling.exception.CustomException: The text is empty.
+2017-04-09 20:09:00 [main] ERROR TextOutput - CustomException: com.sviatlana.infohandling.exception.CustomException: The text is empty.
+2017-04-09 20:09:00 [main] ERROR TextOutput - CustomException: com.sviatlana.infohandling.exception.CustomException: The text is empty.
+2017-04-09 20:27:37 [main] ERROR LexemeCountTest - CustomException: com.sviatlana.infohandling.exception.CustomException: File does not exist. Please check the path: data\information.txt
+2017-04-09 20:27:37 [main] ERROR LexemeCountTest - CustomException: com.sviatlana.infohandling.exception.CustomException: File does not exist. Please check the path: data\information.txt
+2017-04-09 20:27:37 [main] ERROR LexemeCountTest - CustomException: com.sviatlana.infohandling.exception.CustomException: File does not exist. Please check the path: data\information.txt
+2017-04-09 20:27:37 [main] ERROR LexemeCountTest - CustomException: com.sviatlana.infohandling.exception.CustomException: File does not exist. Please check the path: data\information.txt

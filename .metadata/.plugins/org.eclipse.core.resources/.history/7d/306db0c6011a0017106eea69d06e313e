@@ -1,0 +1,11 @@
+#Wed Apr 05 15:59:24 MSK 2017
+eclipse.preferences.version=1
+encoding//WebContent/jsp/login.jsp=UTF-8
+encoding//src/com/sviatlana/web/command/ValidateSAX.java=UTF-8
+encoding//src/com/sviatlana/web/inout/Login.java=UTF-8
+encoding//src/com/sviatlana/web/model/SessionRequestContent.java=UTF-8
+encoding//src/com/sviatlana/web/pool/ProxyConnection.java=UTF-8
+encoding//src/com/sviatlana/web/services/ConnectionPool.java=UTF-8
+encoding//src/com/sviatlana/web/services/SqlConnection.java=UTF-8
+encoding//src/com/sviatlana/web/servlet/Controller.java=UTF-8
+encoding//src/property/pagecontent_ru_ru.properties=UTF-8

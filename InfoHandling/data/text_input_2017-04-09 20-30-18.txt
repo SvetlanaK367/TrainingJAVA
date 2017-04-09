@@ -1,0 +1,14 @@
+ Input Text
+=======================
+	Hadoop got its start in Nutch. A few of us were attempting to build an open source web
+search engine and having trouble managing computations running on even a handful of
+computers. Once Google published its GFS and MapReduce papers, the route became
+clear. They would devised systems to solve precisely the problems we were having with Nutch.
+So we started, two of us, half-time, to try to re-create these systems as a part of Nutch.
+	We managed to get Nutch limping along on 20 machines, but it soon became clear that to
+handle the Web massive scale, we would need to run it on thousands of machines, and
+moreover, that the job was bigger than two half-time developers could handle.
+	Around that time, Yahoo got interested, and quickly put together a team that I joined. We
+split off the distributed computing part of Nutch, naming it Hadoop. With the help of
+Yahoo, Hadoop soon grew into a technology that could truly scale to the Web.
+================================================================================================

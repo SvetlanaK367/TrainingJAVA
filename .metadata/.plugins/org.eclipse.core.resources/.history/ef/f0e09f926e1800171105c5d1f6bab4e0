@@ -1,0 +1,24 @@
+package com.sviatlana.web.services;
+
+import java.sql.Connection;
+
+public class MySqlConnection {
+    private Connection connection;
+    private boolean isFree = true;
+
+    public Connection getConnection() {
+        return this.connection;
+    }
+
+    public void setConnection(Connection connection) {
+        this.connection = connection;
+    }
+
+    public boolean getFree() {
+        return this.isFree;
+    }
+
+    public void setFree(boolean flag) {
+        this.isFree = flag;
+    }
+}

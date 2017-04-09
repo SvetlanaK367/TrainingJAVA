@@ -1,0 +1,7 @@
+INDEX VERSION 1.121+D:\Trainings\JAVA\Homework\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2663196389.index
+2896796907.index
+378753145.index
+1198901460.index
+1727835201.index
+2154878536.index

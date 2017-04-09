@@ -1,0 +1,5 @@
+package com.sviatlana.web.pool;
+
+public class ProxyConnection {
+
+}

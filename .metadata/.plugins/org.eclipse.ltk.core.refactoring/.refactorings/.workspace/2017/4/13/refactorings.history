@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;4_Gorelik_InfoHandling&apos;" deleteContents="false" description="Delete resource &apos;4_Gorelik_InfoHandling&apos;" element1="/4_Gorelik_InfoHandling" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1491071237053"/>
+</session>

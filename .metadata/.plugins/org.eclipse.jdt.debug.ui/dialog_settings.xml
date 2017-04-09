@@ -3,14 +3,15 @@
 	<item value="82" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
 	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
 	<item value="194" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="D:\Trainings\JAVA\Homework\WEB_Servlet\WebContent\WEB-INF\lib" key="JavaClasspathTab.LAST_PATH_SETTING"/>
 	<item value="121" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Digit_Calculation/&amp;lt;com.sviatlana.digitCalculation.main{Main.java[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Shape_Calculation/&amp;lt;com.sviatlana.shapeCalculation.main{MainConsole.java[MainConsole&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Digit_Calculation/&amp;lt;com.sviatlana.digitCalculation.main{Main.java[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Shape_Calculation/&amp;lt;com.sviatlana.shapeCalculation.main{MainConsole.java[MainConsole&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Test_Units/src&amp;lt;com.sviatlana.testing.validation{StringLiteralPool.java[StringLiteralPool&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=DBConnection/C:\/Program Files\/Java\/jre1.7.0_80\/lib\/rt.jar&amp;lt;sun.rmi.server(Activation.class[Activation&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
-			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="894" key="DIALOG_WIDTH"/>
 			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="702" key="DIALOG_HEIGHT"/>
 			<item value="74" key="DIALOG_X_ORIGIN"/>
 			<item value="18" key="DIALOG_Y_ORIGIN"/>
 		</section>
