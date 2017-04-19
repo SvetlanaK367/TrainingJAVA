@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="0" version="2.0">
 <workbenchAdvisor/>
-<window height="878" width="1348" x="314" y="63">
+<window height="878" width="1348" x="339" y="67">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.wst.server.ui.ServersView"/>
 <orientation position="512" view="org.eclipse.jdt.junit.ResultView"/>
@@ -15,7 +15,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -25,7 +25,7 @@
 <coolItem id="org.eclipse.wst.server.ui.new.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" itemType="typePlaceholder" x="104" y="22"/>
-<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -42,119 +42,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
-<part id="17"/>
-<part id="18"/>
-<part id="19"/>
-<part id="20"/>
-<part id="21"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controller.java" partName="Controller.java" path="D:/Trainings/JAVA/Homework/FinalProject/src/com/sviatlana/web/servlet/Controller.java" title="Controller.java" tooltip="FinalProject/src/com/sviatlana/web/servlet/Controller.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/com/sviatlana/web/servlet/Controller.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1448" selectionTopPixel="225"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="validation.jsp" partName="validation.jsp" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/jsp/validation.jsp" title="validation.jsp" tooltip="FinalProject/WebContent/jsp/validation.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/jsp/validation.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="523" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActionFactory.java" partName="ActionFactory.java" path="D:/Trainings/JAVA/Homework/FinalProject/src/com/sviatlana/web/model/ActionFactory.java" title="ActionFactory.java" tooltip="FinalProject/src/com/sviatlana/web/model/ActionFactory.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/com/sviatlana/web/model/ActionFactory.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="428" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandEnum.java" partName="CommandEnum.java" path="D:/Trainings/JAVA/Homework/FinalProject/src/com/sviatlana/web/model/CommandEnum.java" title="CommandEnum.java" tooltip="FinalProject/src/com/sviatlana/web/model/CommandEnum.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/com/sviatlana/web/model/CommandEnum.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="573" selectionTopPixel="102"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="fileUpload.jsp" partName="fileUpload.jsp" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/jsp/fileUpload.jsp" title="fileUpload.jsp" tooltip="FinalProject/WebContent/jsp/fileUpload.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/jsp/fileUpload.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="471" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/WEB-INF/web.xml" title="web.xml" tooltip="FinalProject/WebContent/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/WEB-INF/web.xml"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="context.xml" partName="context.xml" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/META-INF/context.xml" title="context.xml" tooltip="FinalProject/WebContent/META-INF/context.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/META-INF/context.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginLogic.java" partName="LoginLogic.java" path="D:/Trainings/JAVA/Homework/FinalProject/src/com/sviatlana/web/inout/LoginLogic.java" title="LoginLogic.java" tooltip="FinalProject/src/com/sviatlana/web/inout/LoginLogic.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/com/sviatlana/web/inout/LoginLogic.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="938" selectionTopPixel="238"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="main.jsp" partName="main.jsp" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/jsp/main.jsp" title="main.jsp" tooltip="FinalProject/WebContent/jsp/main.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/jsp/main.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="755" selectionTopPixel="102"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ValidateSAX.java" partName="ValidateSAX.java" path="D:/Trainings/JAVA/Homework/FinalProject/src/com/sviatlana/web/command/ValidateSAX.java" title="ValidateSAX.java" tooltip="FinalProject/src/com/sviatlana/web/command/ValidateSAX.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/com/sviatlana/web/command/ValidateSAX.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1492" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" partName="Login.java" path="D:/Trainings/JAVA/Homework/FinalProject/src/com/sviatlana/web/inout/Login.java" title="Login.java" tooltip="FinalProject/src/com/sviatlana/web/inout/Login.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/com/sviatlana/web/inout/Login.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="632" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="login.jsp" partName="login.jsp" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/jsp/login.jsp" title="login.jsp" tooltip="FinalProject/WebContent/jsp/login.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/jsp/login.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="235" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="formatdate.jsp" partName="formatdate.jsp" path="D:/Trainings/JAVA/Homework/FinalProject/WebContent/jsp/formatdate.jsp" title="formatdate.jsp" tooltip="FinalProject/WebContent/jsp/formatdate.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/WebContent/jsp/formatdate.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="958" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="pagecontent_en.properties" partName="pagecontent_en.properties" path="D:/Trainings/JAVA/Homework/FinalProject/src/resources/pagecontent_en.properties" title="pagecontent_en.properties" tooltip="FinalProject/src/resources/pagecontent_en.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/resources/pagecontent_en.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="pagecontent_ru.properties" partName="pagecontent_ru.properties" path="D:/Trainings/JAVA/Homework/FinalProject/src/resources/pagecontent_ru.properties" title="pagecontent_ru.properties" tooltip="FinalProject/src/resources/pagecontent_ru.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FinalProject/src/resources/pagecontent_ru.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="28" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="D:/Trainings/JAVA/Homework/Library/src/com/sviatlana/library/main/Main.java" title="Main.java" tooltip="Library/src/com/sviatlana/library/main/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Library/src/com/sviatlana/library/main/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="191"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RunAllTests.java" partName="RunAllTests.java" path="D:/Trainings/JAVA/Homework/Library/src/test/com/sviatlana/library/run/RunAllTests.java" title="RunAllTests.java" tooltip="Library/src/test/com/sviatlana/library/run/RunAllTests.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Library/src/test/com/sviatlana/library/run/RunAllTests.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="455" selectionOffset="43" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityValidateTest.java" partName="EntityValidateTest.java" path="D:/Trainings/JAVA/Homework/Library/src/test/com/sviatlana/library/validation/EntityValidateTest.java" title="EntityValidateTest.java" tooltip="Library/src/test/com/sviatlana/library/validation/EntityValidateTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Library/src/test/com/sviatlana/library/validation/EntityValidateTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="327"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IsIntegerTest.java" partName="IsIntegerTest.java" path="D:/Trainings/JAVA/Homework/Library/src/test/com/sviatlana/library/validation/IsIntegerTest.java" title="IsIntegerTest.java" tooltip="Library/src/test/com/sviatlana/library/validation/IsIntegerTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Library/src/test/com/sviatlana/library/validation/IsIntegerTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="523" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityValidateBookTest.java" partName="EntityValidateBookTest.java" path="D:/Trainings/JAVA/Homework/Library/src/test/com/sviatlana/library/validation/EntityValidateBookTest.java" title="EntityValidateBookTest.java" tooltip="Library/src/test/com/sviatlana/library/validation/EntityValidateBookTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Library/src/test/com/sviatlana/library/validation/EntityValidateBookTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="73" selectionOffset="228" selectionTopPixel="55"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RadiusValidationTest.java" partName="RadiusValidationTest.java" path="D:/Trainings/JAVA/Homework/Shape_Calculation/test/com/sviatlana/sc/validation/RadiusValidationTest.java" title="RadiusValidationTest.java" tooltip="Shape_Calculation/test/com/sviatlana/sc/validation/RadiusValidationTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Shape_Calculation/test/com/sviatlana/sc/validation/RadiusValidationTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="34" selectionOffset="734" selectionTopPixel="174"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RunAllTests.java" partName="RunAllTests.java" path="D:/Trainings/JAVA/Homework/Shape_Calculation/test/com/sviatlana/sc/run/RunAllTests.java" title="RunAllTests.java" tooltip="Shape_Calculation/test/com/sviatlana/sc/run/RunAllTests.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Shape_Calculation/test/com/sviatlana/sc/run/RunAllTests.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="380" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
@@ -230,7 +121,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -467,168 +358,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/FinalProject/WebContent/jsp/login.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/FinalProject/src/com/sviatlana/web/inout/Login.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/FinalProject/src/resources/pagecontent_en_us.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/FinalProject/src/resources/pagecontent_ru_ru.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/FinalProject/src/resources/pagecontent"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/FinalProject/src/resources/pagecontent_ru.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/FinalProject/src/resources/pagecontent_en.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/Servers/Tomcat v7.0 Server at localhost-config/server.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/FinalProject/WebContent/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Library/src/com/sviatlana/library/main/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Library/src/test/com/sviatlana/library/run/RunAllTests.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Library/src/test/com/sviatlana/library/validation/EntityValidateTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Library/src/test/com/sviatlana/library/validation/IsIntegerTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Library/src/test/com/sviatlana/library/validation/EntityValidateBookTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Shape_Calculation/test/com/sviatlana/sc/validation/RadiusValidationTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Shape_Calculation/test/com/sviatlana/sc/run/RunAllTests.java"/>
-</editors>
-<item historyLabel="pagecontent_en_us.properties" index="2">
-<position info="not_deleted" x="0" y="47"/>
-</item>
-<item historyLabel="pagecontent" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="pagecontent_en_us.properties" index="2">
-<position info="not_deleted" x="49" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru_ru.properties" index="3">
-<position info="not_deleted" x="48" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru_ru.properties" index="3">
-<position info="not_deleted" x="48" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="55" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="335" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="55" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="pagecontent_en_us.properties" index="2">
-<position info="not_deleted" x="49" y="0"/>
-</item>
-<item historyLabel="pagecontent_en.properties" index="6">
-<position info="not_deleted" x="49" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="529" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="268" y="67"/>
-</item>
-<item historyLabel="Login.java" index="1">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="268" y="67"/>
-</item>
-<item historyLabel="pagecontent_en.properties" index="6">
-<position info="not_deleted" x="49" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="451" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="74" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="86" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="335" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="335" y="0"/>
-</item>
-<item historyLabel="server.xml" index="7"/>
-<item historyLabel="web.xml" index="8"/>
-<item historyLabel="web.xml" index="8"/>
-<item historyLabel="web.xml" index="8"/>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="74" y="0"/>
-</item>
-<item historyLabel="login.jsp" index="0">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="74" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="74" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="74" y="0"/>
-</item>
-<item historyLabel="pagecontent_ru.properties" index="5">
-<position info="not_deleted" x="74" y="0"/>
-</item>
-<item historyLabel="Main.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RunAllTests.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="EntityValidateTest.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="IsIntegerTest.java" index="12">
-<position info="not_deleted" x="523" y="0"/>
-</item>
-<item historyLabel="EntityValidateTest.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="EntityValidateBookTest.java" index="13">
-<position info="not_deleted" x="228" y="73"/>
-</item>
-<item historyLabel="EntityValidateTest.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RadiusValidationTest.java" index="14">
-<position info="not_deleted" x="734" y="34"/>
-</item>
-<item historyLabel="RunAllTests.java" index="15">
-<position info="not_deleted" x="380" y="11"/>
-</item>
-<item active="true" historyLabel="RunAllTests.java" index="10">
-<position info="not_deleted" x="478" y="11"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>

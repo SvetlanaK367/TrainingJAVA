@@ -1,4 +1,0 @@
-﻿# Locale ru_RU
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-title=Пример
-welcome=Добро пожаловать!
